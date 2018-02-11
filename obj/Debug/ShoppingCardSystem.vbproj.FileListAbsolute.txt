@@ -1258,3 +1258,10 @@ D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.Trus
 D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.exe.manifest
 D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.application
 D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmTEST_ConvertPW.resources
+D:\WXHomerl\CODE\mycard\bin\Debug\ShoppingCardSystem.exe.config
+D:\WXHomerl\CODE\mycard\obj\Debug\Interop.Excel.dll
+D:\WXHomerl\CODE\mycard\obj\Debug\Interop.Office.dll
+D:\WXHomerl\CODE\mycard\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+D:\WXHomerl\CODE\mycard\obj\Debug\ShoppingCardSystem.exe
+D:\WXHomerl\CODE\mycard\obj\Debug\ShoppingCardSystem.xml
+D:\WXHomerl\CODE\mycard\obj\Debug\ShoppingCardSystem.pdb

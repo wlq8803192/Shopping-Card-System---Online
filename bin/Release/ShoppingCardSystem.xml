@@ -6,71 +6,7 @@ ShoppingCardSystem
 </name>
 </assembly>
 <members>
-<member name="T:ShoppingCardSystem.dsMonthRep3.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep3.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep3.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep3">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep2.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep2.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep2.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep2">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep5.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep5.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep5.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep5">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="M:ShoppingCardSystem.C4ShoppingCardService.C4ShoppingCardService.#ctor">
+<member name="M:ShoppingCardSystem.C4ShoppingCardService.C4ShoppingCardService.#ctor">
 	<remarks/>
 </member><member name="E:ShoppingCardSystem.C4ShoppingCardService.C4ShoppingCardService.vinfoTestCompleted">
 	<remarks/>
@@ -1356,378 +1292,6 @@ Represents a strongly typed in-memory cache of data.
 	<remarks/>
 </member><member name="T:ShoppingCardSystem.C4ShoppingCardService.cardSignFlagRegisterCompletedEventArgs">
 	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.#ctor">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.HelloWorldCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTestCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatusCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatusCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTestCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.InternetWebService.Service.TestRequestCompleted">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.HelloWorld">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.HelloWorldAsync">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.HelloWorldAsync(System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfo(ShoppingCardSystem.InternetWebService.ExtractingCodeInfo)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoAsync(ShoppingCardSystem.InternetWebService.ExtractingCodeInfo)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoAsync(ShoppingCardSystem.InternetWebService.ExtractingCodeInfo,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTest(System.String,System.String,System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTestAsync(System.String,System.String,System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTestAsync(System.String,System.String,System.String,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatus(ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus,ShoppingCardSystem.InternetWebService.GuIDClass,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatus(ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus,ShoppingCardSystem.InternetWebService.GuIDClass,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfo(ShoppingCardSystem.InternetWebService.OrderAllInfo)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoAsync(ShoppingCardSystem.InternetWebService.OrderAllInfo)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoAsync(ShoppingCardSystem.InternetWebService.OrderAllInfo,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTest(System.String,System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTestAsync(System.String,System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTestAsync(System.String,System.String,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.TestRequest">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.TestRequestAsync">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.TestRequestAsync(System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.InternetWebService.Service.CancelAsync(System.Object)">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.Service">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.IssuerId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.MobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.ExtractingCode">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.Mac">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.Type">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.CardNo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.CardHolderMobile">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.Amount">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.PayAmount">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.AreaCode">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.ProductId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.ProductName">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.ProductNum">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.PromotionAmount">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.CardTransInfo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.CardTransInfoArray">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.IssuerId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillNo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillTotalAmount">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillPayTotalAmount">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillTotalNum">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillPayStatus">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillType">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillCreateTimestamp">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillBuyChannel">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BuyerMobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.HolderMobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.CreateTime">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.UpdateTime">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.OrderAllInfoData">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoResponse.CodeMsg">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoResponse.OrderAllInfoData">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.OrderAllInfoResponse">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CodeMsg.Code">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.CodeMsg.Msg">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.CodeMsg">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.IssuerId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.BillNo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.Mac">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.Type">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.OrderAllInfo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.IssuerId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.MobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.ExtractingCode">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.MoteStatus">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.Cards">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.Mac">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.Type">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.GuIDClass.GuID">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.GuIDClass">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.IssuerId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.MobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.ExtractingCode">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.Cards">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.Mac">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.Type">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.ProductId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.AreaCode">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.ProductName">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.Status">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.CardPrice">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.ProductNum">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.PayAmount">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.ExtractingCode">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.Status">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.HotReason">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.IssuerId">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillNo">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillTotalAmount">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillPayTotalAmount">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillTotalNum">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillPayStatus">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillType">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillCreateTimestamp">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillBuyChannel">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BuyerMobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.HolderMobilePhone">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.CreateTime">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.UpdateTime">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.ExtractingCodeInfoDetailData">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoResponse.CodeMsg">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoResponse.ExtractingCodeInfoData">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoResponse">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.HelloWorldCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.HelloWorldCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.HelloWorldCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoTestCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoTestCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoTestCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatusCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatusCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatusCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatusCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatusCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatusCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoTestCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoTestCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoTestCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.TestRequestCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.InternetWebService.TestRequestCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.InternetWebService.TestRequestCompletedEventArgs">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.#ctor">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.HelloWorldCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.GetConnectionCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnectionCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsgCompleted">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.HelloWorld">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.HelloWorldAsync">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.HelloWorldAsync(System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetConnection">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetConnectionAsync">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetConnectionAsync(System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnection">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnectionAsync">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnectionAsync(System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsg">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsgAsync">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsgAsync(System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.CancelAsync(System.Object)">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.Service">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.HelloWorldCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.WebServiceConfig.HelloWorldCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.HelloWorldCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetConnectionCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.WebServiceConfig.GetConnectionCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetConnectionCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetUpdateSystemConnectionCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.WebServiceConfig.GetUpdateSystemConnectionCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetUpdateSystemConnectionCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetLoginShowMsgCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.WebServiceConfig.GetLoginShowMsgCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetLoginShowMsgCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.dsDailyCusomer.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyCusomer.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyCusomer.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyCusomer">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
 </member><member name="T:ShoppingCardSystem.dsMonthRep2.tbRepDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -1744,115 +1308,6 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsFishReport1.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsFishReport1.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsFishReport1.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsFishReport1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep1.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep1.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep1.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep4.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep4.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep4.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep4">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="P:ShoppingCardSystem.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:ShoppingCardSystem.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:ShoppingCardSystem.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.#ctor">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTableCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTableCompleted">
-	<remarks/>
-</member><member name="E:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTableCompleted">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTable(System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTableAsync(System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTableAsync(System.String,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTable(System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTableAsync(System.String)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTableAsync(System.String,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTable(System.String,System.Data.DataTable)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTableAsync(System.String,System.Data.DataTable)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTableAsync(System.String,System.Data.DataTable,System.Object)">
-	<remarks/>
-</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.CancelAsync(System.Object)">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.ReportWebService">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.GetDataTableCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.ShoppingCardWebService.GetDataTableCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.GetDataTableCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.ModifyTableCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.ShoppingCardWebService.ModifyTableCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.ModifyTableCompletedEventArgs">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.BulkCopyTableCompletedEventHandler">
-	<remarks/>
-</member><member name="P:ShoppingCardSystem.ShoppingCardWebService.BulkCopyTableCompletedEventArgs.Result">
-	<remarks/>
-</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.BulkCopyTableCompletedEventArgs">
-	<remarks/>
 </member><member name="M:ShoppingCardSystem.InternetElects.Service.#ctor">
 	<remarks/>
 </member><member name="E:ShoppingCardSystem.InternetElects.Service.HelloWorldCompleted">
@@ -2473,98 +1928,426 @@ Represents a strongly typed in-memory cache of data.
 	<remarks/>
 </member><member name="T:ShoppingCardSystem.InternetElects.CtqyMultiCardDataCompletedEventArgs">
 	<remarks/>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountHeaderDataTable">
+</member><member name="T:ShoppingCardSystem.dsDailyRep1.tbRepDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountDetailsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountHeaderRow">
+</member><member name="T:ShoppingCardSystem.dsDailyRep1.tbRepRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountDetailsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountHeaderRowChangeEvent">
+</member><member name="T:ShoppingCardSystem.dsDailyRep1.tbRepRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountDetailsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader">
+</member><member name="T:ShoppingCardSystem.dsDailyRep1">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep1.tbRepDataTable">
+</member><member name="T:ShoppingCardSystem.dsDailyRep4.tbRepDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep1.tbRepRow">
+</member><member name="T:ShoppingCardSystem.dsDailyRep4.tbRepRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep1.tbRepRowChangeEvent">
+</member><member name="T:ShoppingCardSystem.dsDailyRep4.tbRepRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep1">
+</member><member name="T:ShoppingCardSystem.dsDailyRep4">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep4.tbRepDataTable">
+</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1.tbRepDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep4.tbRepRow">
+</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1.tbRepRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep4.tbRepRowChangeEvent">
+</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1.tbRepRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:ShoppingCardSystem.dsMonthRep4">
+</member><member name="T:ShoppingCardSystem.dsRepColumnMonth1">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep3.tbRepDataTable">
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.#ctor">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.HelloWorldCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.GetConnectionCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnectionCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsgCompleted">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.HelloWorld">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.HelloWorldAsync">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.HelloWorldAsync(System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetConnection">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetConnectionAsync">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetConnectionAsync(System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnection">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnectionAsync">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetUpdateSystemConnectionAsync(System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsg">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsgAsync">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.GetLoginShowMsgAsync(System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.WebServiceConfig.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.Service">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.HelloWorldCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.WebServiceConfig.HelloWorldCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.HelloWorldCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetConnectionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.WebServiceConfig.GetConnectionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetConnectionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetUpdateSystemConnectionCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.WebServiceConfig.GetUpdateSystemConnectionCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetUpdateSystemConnectionCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetLoginShowMsgCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.WebServiceConfig.GetLoginShowMsgCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.WebServiceConfig.GetLoginShowMsgCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.dsDailyCusomer.tbRepDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep3.tbRepRow">
+</member><member name="T:ShoppingCardSystem.dsDailyCusomer.tbRepRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep3.tbRepRowChangeEvent">
+</member><member name="T:ShoppingCardSystem.dsDailyCusomer.tbRepRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep3">
+</member><member name="T:ShoppingCardSystem.dsDailyCusomer">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep6.tbRepDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep6.tbRepRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep6.tbRepRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ShoppingCardSystem.dsDailyRep6">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.#ctor">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.HelloWorldCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTestCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatusCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatusCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTestCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.InternetWebService.Service.TestRequestCompleted">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.HelloWorld">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.HelloWorldAsync">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.HelloWorldAsync(System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfo(ShoppingCardSystem.InternetWebService.ExtractingCodeInfo)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoAsync(ShoppingCardSystem.InternetWebService.ExtractingCodeInfo)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoAsync(ShoppingCardSystem.InternetWebService.ExtractingCodeInfo,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTest(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTestAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryExtractingCodeInfoTestAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatus(ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus,ShoppingCardSystem.InternetWebService.GuIDClass,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatus(ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus,ShoppingCardSystem.InternetWebService.GuIDClass)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.SetExtractingCodeUsedUpdateStatusAsync(ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus,ShoppingCardSystem.InternetWebService.GuIDClass,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfo(ShoppingCardSystem.InternetWebService.OrderAllInfo)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoAsync(ShoppingCardSystem.InternetWebService.OrderAllInfo)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoAsync(ShoppingCardSystem.InternetWebService.OrderAllInfo,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTest(System.String,System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTestAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.QueryOrderAllInfoTestAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.TestRequest">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.TestRequestAsync">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.TestRequestAsync(System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.InternetWebService.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.Service">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.IssuerId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.MobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.ExtractingCode">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.Mac">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo.Type">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.CardNo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.CardHolderMobile">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.Amount">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.PayAmount">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.AreaCode">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.ProductId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.ProductName">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.ProductNum">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CardTransInfo.PromotionAmount">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.CardTransInfo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.CardTransInfoArray">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.IssuerId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillNo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillTotalAmount">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillPayTotalAmount">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillTotalNum">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillPayStatus">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillType">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillCreateTimestamp">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BillBuyChannel">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.BuyerMobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.HolderMobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.CreateTime">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoData.UpdateTime">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.OrderAllInfoData">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoResponse.CodeMsg">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfoResponse.OrderAllInfoData">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.OrderAllInfoResponse">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CodeMsg.Code">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.CodeMsg.Msg">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.CodeMsg">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.IssuerId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.BillNo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.Mac">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.OrderAllInfo.Type">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.OrderAllInfo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.IssuerId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.MobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.ExtractingCode">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.MoteStatus">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.Cards">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.Mac">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus.Type">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatus">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.GuIDClass.GuID">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.GuIDClass">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.IssuerId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.MobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.ExtractingCode">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.Cards">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.Mac">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus.Type">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatus">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.ProductId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.AreaCode">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.ProductName">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.Status">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.CardPrice">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.ProductNum">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData.PayAmount">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoDetailData">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.ExtractingCode">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.Status">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.HotReason">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.IssuerId">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillNo">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillTotalAmount">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillPayTotalAmount">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillTotalNum">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillPayStatus">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillType">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillCreateTimestamp">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BillBuyChannel">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.BuyerMobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.HolderMobilePhone">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.CreateTime">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.UpdateTime">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData.ExtractingCodeInfoDetailData">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoData">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoResponse.CodeMsg">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoResponse.ExtractingCodeInfoData">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.ExtractingCodeInfoResponse">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.HelloWorldCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.HelloWorldCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.HelloWorldCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoTestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoTestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryExtractingCodeInfoTestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatusCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatusCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeStatusCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatusCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatusCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.SetExtractingCodeUsedUpdateStatusCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoTestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoTestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.QueryOrderAllInfoTestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.TestRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.InternetWebService.TestRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.InternetWebService.TestRequestCompletedEventArgs">
+	<remarks/>
 </member><member name="M:ShoppingCardSystem.InternetRuiTaiWebService.Service.#ctor">
 	<remarks/>
 </member><member name="E:ShoppingCardSystem.InternetRuiTaiWebService.Service.HelloWorldCompleted">
@@ -2789,6 +2572,223 @@ Represents a strongly typed in-memory cache of data.
 	<remarks/>
 </member><member name="T:ShoppingCardSystem.InternetRuiTaiWebService.SetCodeCompletedEventArgs">
 	<remarks/>
+</member><member name="T:ShoppingCardSystem.dsFishReport1.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsFishReport1.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsFishReport1.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsFishReport1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep1.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep1.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep1.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep4.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep4.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep4.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep3.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep3.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep3.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep6.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep6.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep6.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountHeaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountHeaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountHeaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader.dtCheckAccountDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsCheckAccountHeader">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:ShoppingCardSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ShoppingCardSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ShoppingCardSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.#ctor">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTableCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTableCompleted">
+	<remarks/>
+</member><member name="E:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTableCompleted">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTable(System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTableAsync(System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.GetDataTableAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTable(System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTableAsync(System.String)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.ModifyTableAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTable(System.String,System.Data.DataTable)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTableAsync(System.String,System.Data.DataTable)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.BulkCopyTableAsync(System.String,System.Data.DataTable,System.Object)">
+	<remarks/>
+</member><member name="M:ShoppingCardSystem.ShoppingCardWebService.ReportWebService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.ReportWebService">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.GetDataTableCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.ShoppingCardWebService.GetDataTableCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.GetDataTableCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.ModifyTableCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.ShoppingCardWebService.ModifyTableCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.ModifyTableCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.BulkCopyTableCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ShoppingCardSystem.ShoppingCardWebService.BulkCopyTableCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.ShoppingCardWebService.BulkCopyTableCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ShoppingCardSystem.dsMonthRep3.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep3.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep3.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsMonthRep3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep2.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep2.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep2.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep5.tbRepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep5.tbRepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep5.tbRepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ShoppingCardSystem.dsDailyRep5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
 </member>
 </members>
 </doc>
