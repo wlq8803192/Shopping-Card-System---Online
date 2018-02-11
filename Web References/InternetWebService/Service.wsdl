@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryExtractingCodeInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:ExtractingCodeInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ExtractingCodeInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtractingCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryExtractingCodeInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryExtractingCodeInfoResult" type="tns:ExtractingCodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ExtractingCodeInfoResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtractingCodeInfoData" type="tns:ExtractingCodeInfoData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CodeMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ExtractingCodeInfoData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtractingCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotReason" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillTotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillPayTotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillTotalNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillPayStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillCreateTimestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillBuyChannel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BuyerMobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HolderMobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtractingCodeInfoDetailData" type="tns:ExtractingCodeInfoDetailData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ExtractingCodeInfoDetailData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AreaCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardPrice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PayAmount" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryExtractingCodeInfoTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sIssuerId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMobilePhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sExtractingCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryExtractingCodeInfoTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryExtractingCodeInfoTestResult" type="tns:ExtractingCodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetExtractingCodeStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:SetExtractingCodeStatus" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SetExtractingCodeStatus">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtractingCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cards" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GuIDClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GuID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SetExtractingCodeStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetExtractingCodeStatusResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetExtractingCodeUsedUpdateStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:SetExtractingCodeUsedUpdateStatus" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SetExtractingCodeUsedUpdateStatus">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtractingCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MoteStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cards" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SetExtractingCodeUsedUpdateStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetExtractingCodeUsedUpdateStatusResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryOrderAllInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:OrderAllInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OrderAllInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mac" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryOrderAllInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryOrderAllInfoResult" type="tns:OrderAllInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OrderAllInfoResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderAllInfoData" type="tns:OrderAllInfoData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OrderAllInfoData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardTransInfoArray" type="tns:ArrayOfCardTransInfo" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillTotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillPayTotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillTotalNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillPayStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillCreateTimestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillBuyChannel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BuyerMobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HolderMobilePhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdateTime" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCardTransInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CardTransInfo" nillable="true" type="tns:CardTransInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CardTransInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardHolderMobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PayAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AreaCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PromotionAmount" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryOrderAllInfoTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sIssuerId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sBillNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryOrderAllInfoTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryOrderAllInfoTestResult" type="tns:OrderAllInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestRequest">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestRequestResult" type="tns:OrderAllInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryExtractingCodeInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryExtractingCodeInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryExtractingCodeInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryExtractingCodeInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryExtractingCodeInfoTestSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryExtractingCodeInfoTest" />
+  </wsdl:message>
+  <wsdl:message name="QueryExtractingCodeInfoTestSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryExtractingCodeInfoTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetExtractingCodeStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:SetExtractingCodeStatus" />
+  </wsdl:message>
+  <wsdl:message name="SetExtractingCodeStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:SetExtractingCodeStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetExtractingCodeUsedUpdateStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:SetExtractingCodeUsedUpdateStatus" />
+  </wsdl:message>
+  <wsdl:message name="SetExtractingCodeUsedUpdateStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:SetExtractingCodeUsedUpdateStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderAllInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryOrderAllInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderAllInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryOrderAllInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderAllInfoTestSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryOrderAllInfoTest" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderAllInfoTestSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryOrderAllInfoTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:TestRequest" />
+  </wsdl:message>
+  <wsdl:message name="TestRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryExtractingCodeInfo">
+      <wsdl:input message="tns:QueryExtractingCodeInfoSoapIn" />
+      <wsdl:output message="tns:QueryExtractingCodeInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryExtractingCodeInfoTest">
+      <wsdl:input message="tns:QueryExtractingCodeInfoTestSoapIn" />
+      <wsdl:output message="tns:QueryExtractingCodeInfoTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetExtractingCodeStatus">
+      <wsdl:input message="tns:SetExtractingCodeStatusSoapIn" />
+      <wsdl:output message="tns:SetExtractingCodeStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetExtractingCodeUsedUpdateStatus">
+      <wsdl:input message="tns:SetExtractingCodeUsedUpdateStatusSoapIn" />
+      <wsdl:output message="tns:SetExtractingCodeUsedUpdateStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderAllInfo">
+      <wsdl:input message="tns:QueryOrderAllInfoSoapIn" />
+      <wsdl:output message="tns:QueryOrderAllInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderAllInfoTest">
+      <wsdl:input message="tns:QueryOrderAllInfoTestSoapIn" />
+      <wsdl:output message="tns:QueryOrderAllInfoTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestRequest">
+      <wsdl:input message="tns:TestRequestSoapIn" />
+      <wsdl:output message="tns:TestRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryExtractingCodeInfo">
+      <soap:operation soapAction="http://tempuri.org/QueryExtractingCodeInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryExtractingCodeInfoTest">
+      <soap:operation soapAction="http://tempuri.org/QueryExtractingCodeInfoTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetExtractingCodeStatus">
+      <soap:operation soapAction="http://tempuri.org/SetExtractingCodeStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetExtractingCodeUsedUpdateStatus">
+      <soap:operation soapAction="http://tempuri.org/SetExtractingCodeUsedUpdateStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderAllInfo">
+      <soap:operation soapAction="http://tempuri.org/QueryOrderAllInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderAllInfoTest">
+      <soap:operation soapAction="http://tempuri.org/QueryOrderAllInfoTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestRequest">
+      <soap:operation soapAction="http://tempuri.org/TestRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryExtractingCodeInfo">
+      <soap12:operation soapAction="http://tempuri.org/QueryExtractingCodeInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryExtractingCodeInfoTest">
+      <soap12:operation soapAction="http://tempuri.org/QueryExtractingCodeInfoTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetExtractingCodeStatus">
+      <soap12:operation soapAction="http://tempuri.org/SetExtractingCodeStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetExtractingCodeUsedUpdateStatus">
+      <soap12:operation soapAction="http://tempuri.org/SetExtractingCodeUsedUpdateStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderAllInfo">
+      <soap12:operation soapAction="http://tempuri.org/QueryOrderAllInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderAllInfoTest">
+      <soap12:operation soapAction="http://tempuri.org/QueryOrderAllInfoTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestRequest">
+      <soap12:operation soapAction="http://tempuri.org/TestRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:95/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:95/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

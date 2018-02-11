@@ -1,0 +1,1260 @@
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\ShoppingCardSystem.exe.config
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\ShoppingCardSystem.exe.manifest
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\ShoppingCardSystem.application
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\ShoppingCardSystem.exe
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\ShoppingCardSystem.pdb
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\ShoppingCardSystem.xml
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\report.dll
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ResolveAssemblyReference.cache
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmContract.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMain.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.Resources.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmSelling.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmArea.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmLogin.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmPosition.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmUser.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\RdlCompile.cache
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\RdlCompile.compiled
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.exe.manifest
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.application
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.exe
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.xml
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.pdb
+D:\New ShoppingCardSystem\ShoppingCardSystem\bin\Debug\Interop.PZHPrj.dll
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\Interop.PZHPrj.dll
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+D:\New ShoppingCardSystem\ShoppingCardSystem\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\ShoppingCardSystem.exe.config
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\ShoppingCardSystem.exe.manifest
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\ShoppingCardSystem.application
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\ShoppingCardSystem.exe
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\ShoppingCardSystem.pdb
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\ShoppingCardSystem.xml
+D:\Project\Program\ShoppingCard\Shopping Card System Product\bin\Debug\report.dll
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmContract.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMain.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.Resources.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmSelling.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmArea.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmLogin.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmPosition.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmUser.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\RdlCompile.cache
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\RdlCompile.compiled
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.exe.manifest
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.application
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.exe
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.xml
+D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Debug\ShoppingCardSystem.pdb
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.exe.config
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\Interop.PZHPrj.dll
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.exe
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.xml
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.pdb
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.exe.manifest
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.application
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.exe
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.pdb
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.xml
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\report.dll
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\Interop.PZHPrj.dll
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ResolveAssemblyReference.cache
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmContract.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMain.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.Resources.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelling.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmArea.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmLogin.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPosition.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUser.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\RdlCompile.cache
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\RdlCompile.compiled
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.exe.manifest
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.application
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPayPalInvoice.resources
+D:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPayPalInvoice_Print.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ResolveAssemblyReference.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.exe.config
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.exe.manifest
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.application
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.exe
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.pdb
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\ShoppingCardSystem.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\bin\Debug\report.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmContract.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCustomReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMain.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInternetSales_ForRuiTai.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelectBuyChannel.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInternetSalesConfigInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInternetSalesPrintInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInternetSalesInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.Resources.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmInternetSales_ForCul.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmSelling.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmLogin.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmPosition.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUser.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\RdlCompile.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\RdlCompile.compiled
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.exe.manifest
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.application
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.exe
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System\obj\Debug\ShoppingCardSystem.pdb
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.exe.config
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.exe
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.pdb
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ResolveAssemblyReference.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.exe.manifest
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.application
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.exe
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.pdb
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\report.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmContract.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCustomReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMain.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.Resources.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSalesConfigInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSalesInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSalesPrintInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckInternetSales.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelling.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmLogin.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPosition.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUser.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\RdlCompile.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\RdlCompile.compiled
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.exe.manifest
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.application
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardReplace.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardRegisterHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperationSelect.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForCul.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForRuiTai.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelectBuyChannel.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\ShoppingCardSystem.exe.config
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.exe
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.pdb
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\ShoppingCardSystem.exe.manifest
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\ShoppingCardSystem.application
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\ShoppingCardSystem.exe
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\ShoppingCardSystem.pdb
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\ShoppingCardSystem.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\report.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ResolveAssemblyReference.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmContract.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSignCardRegisterHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSignCardReplace.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperationSelect.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCustomReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMain.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.Resources.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInternetSalesConfigInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInternetSalesInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInternetSalesPrintInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInternetSales_ForCul.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmInternetSales_ForRuiTai.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSelectBuyChannel.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCheckInternetSales.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmSelling.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmLogin.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmPosition.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmUser.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\RdlCompile.cache
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\RdlCompile.compiled
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.exe.manifest
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Sign+RuiTai\obj\Debug\ShoppingCardSystem.application
+E:\Hyron Folder\BaiJieYu\workspace\00-SCS All\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCrossSellingCityConfig.resources
+E:\Qipeng\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.exe.config
+E:\Qipeng\Shopping Card System-Online\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\Qipeng\Shopping Card System-Online\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.exe
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.xml
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.pdb
+E:\Qipeng\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.exe.manifest
+E:\Qipeng\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.application
+E:\Qipeng\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.exe
+E:\Qipeng\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.pdb
+E:\Qipeng\Shopping Card System-Online\bin\Debug\ShoppingCardSystem.xml
+E:\Qipeng\Shopping Card System-Online\bin\Debug\report.dll
+E:\Qipeng\Shopping Card System-Online\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\Qipeng\Shopping Card System-Online\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ResolveAssemblyReference.cache
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCrossSellingCityConfig.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmContract.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardRegisterHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardReplace.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperationSelect.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCustomReport.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMain.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.Resources.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSalesConfigInvoice.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSalesInvoice.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSalesPrintInvoice.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForCul.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForRuiTai.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelectBuyChannel.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCheckInternetSales.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmSelling.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmArea.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmLogin.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmPosition.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUser.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+E:\Qipeng\Shopping Card System-Online\obj\Debug\RdlCompile.cache
+E:\Qipeng\Shopping Card System-Online\obj\Debug\RdlCompile.compiled
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.exe.manifest
+E:\Qipeng\Shopping Card System-Online\obj\Debug\ShoppingCardSystem.application
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.exe.config
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.exe.manifest
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.application
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.exe
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.pdb
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.xml
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\report.dll
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\Interop.Excel.dll
+D:\WXHomerl\Shopping Card System - Online\bin\Debug\Interop.Office.dll
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ResolveAssemblyReference.cache
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\Interop.Excel.dll
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\Interop.Office.dll
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCrossSellingCityConfig.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmContract.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardRegisterHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardReplace.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperationSelect.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCustomReport.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelChargeHistory.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelChargeRequirement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelChargeValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelExtractingCodeValidation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmElectronicOperation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSupply.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMain.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.Resources.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSalesConfigInvoice.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSalesInvoice.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSalesPrintInvoice.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForCul.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForRuiTai.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelectBuyChannel.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckInternetSales.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelling.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmArea.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmLogin.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPosition.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUser.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\RdlCompile.cache
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\RdlCompile.compiled
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.exe.manifest
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.application
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.exe
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.xml
+D:\WXHomerl\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.pdb
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.exe.config
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\Interop.Excel.dll
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\Interop.Office.dll
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.vbproj.ResolveComReference.cache
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.exe
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.xml
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.pdb
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.exe.manifest
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.application
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.exe
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.pdb
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\ShoppingCardSystem.xml
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\report.dll
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\Interop.Excel.dll
+D:\WXHomerl\CODE\Shopping Card System - Online\bin\Debug\Interop.Office.dll
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ResolveAssemblyReference.cache
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardActivation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmEmployeeCardActivation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPaymentConfirmation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUnconfirmedPayment.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardFilter.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCityConfig.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfirmSaveRule.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCrossSellingCityConfig.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmViewCityRebateRule.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmContract.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmContractCityRule.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmContractManagement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCULReport.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCULReportBatchDownload.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardSpecialOperation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCULOperationHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDealingQuery_Section.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardRegisterHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardReplace.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSignCardSpecialOperationSelect.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUrgentDeduction.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReplaceCardRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReplaceCardHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReplaceCardValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmRecycleCardRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDealingQuery.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmRecycleCardHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmRecycleCardValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelActivationRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelActivationValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelActivationHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardPassword.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelMKTActivationHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardCancellationHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmGiftCardOfflineActivationHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmBusinessType.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSetLocution.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCustomer.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCustomerManagement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCustomReport.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelChargeHistory.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelChargeRequirement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelChargeValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmECancelExtractingCodeValidation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmElectronicOperation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSupply.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmEmployeeQuota.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMessageValidated.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMain.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceCancellation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceDeviceTesting.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceItem.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInvoiceLayout.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmNewBatchInvoice.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmJVReport.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.Resources.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmNavigation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmColumnMonth1.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyCustomer.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep1.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep2.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep3.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep4.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep5.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDailyRep6.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmFishReport1.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep1.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep2.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep3.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMonthRep4.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSalesReport.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelArea.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmBonusCalculation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSwitchMode.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmImportantInformation.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmFreezeCard.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSmallTool.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmHotLine.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchContract.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchCustomer.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBill.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchUser.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchPayment.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSearchSalesBillDetail.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckAccount.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckCardFromCUL.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmActivationDetails.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmAdjustSalesman.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCancelSalesBill.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardFee.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckCardResult.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfigInvoice.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfigTicket.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmConfirmCancelSalesBill.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmImportedFileResult.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSalesConfigInvoice.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSalesInvoice.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSalesPrintInvoice.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForCul.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmInternetSales_ForRuiTai.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmModifyNormalRebate.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmModifyPaymentInfo.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPredefineFaceValue.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPrintInvoice.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmReprintInvoiceReason.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSalesBillManagement.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelectBuyChannel.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCheckInternetSales.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelectStore.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelectWorkSheet.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmSelling.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmValidateDiscount.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmCardCycle.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmArea.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmChangePassword.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmDropDownArea.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmLogin.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmPosition.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmResetPassword.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUser.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmUserManagerment.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmMessageNeedValidate.resources
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.vbproj.GenerateResource.Cache
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\RdlCompile.cache
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\RdlCompile.compiled
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.TrustInfo.xml
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.exe.manifest
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.application
+D:\WXHomerl\CODE\Shopping Card System - Online\obj\Debug\ShoppingCardSystem.frmTEST_ConvertPW.resources

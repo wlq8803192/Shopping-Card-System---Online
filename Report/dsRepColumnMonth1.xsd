@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRepColumnMonth1" targetNamespace="http://tempuri.org/dsRepColumnMonth1.xsd" xmlns:mstns="http://tempuri.org/dsRepColumnMonth1.xsd" xmlns="http://tempuri.org/dsRepColumnMonth1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRepColumnMonth1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsRepColumnMonth1" msprop:Generator_UserDSName="dsRepColumnMonth1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbRep" msprop:Generator_UserTableName="tbRep" msprop:Generator_RowDeletedName="tbRepRowDeleted" msprop:Generator_TableClassName="tbRepDataTable" msprop:Generator_RowChangedName="tbRepRowChanged" msprop:Generator_RowClassName="tbRepRow" msprop:Generator_RowChangingName="tbRepRowChanging" msprop:Generator_RowEvArgName="tbRepRowChangeEvent" msprop:Generator_RowEvHandlerName="tbRepRowChangeEventHandler" msprop:Generator_TablePropName="tbRep" msprop:Generator_TableVarName="tabletbRep" msprop:Generator_RowDeletingName="tbRepRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StoreName" msprop:Generator_UserColumnName="StoreName" msprop:Generator_ColumnPropNameInRow="StoreName" msprop:Generator_ColumnVarNameInTable="columnStoreName" msprop:Generator_ColumnPropNameInTable="StoreNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerName" msprop:Generator_UserColumnName="CustomerName" msprop:Generator_ColumnPropNameInRow="CustomerName" msprop:Generator_ColumnVarNameInTable="columnCustomerName" msprop:Generator_ColumnPropNameInTable="CustomerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amt_Jan" msprop:Generator_UserColumnName="Amt_Jan" msprop:Generator_ColumnPropNameInRow="Amt_Jan" msprop:Generator_ColumnVarNameInTable="columnAmt_Jan" msprop:Generator_ColumnPropNameInTable="Amt_JanColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Feb" msprop:Generator_UserColumnName="Amt_Feb" msprop:Generator_ColumnPropNameInRow="Amt_Feb" msprop:Generator_ColumnVarNameInTable="columnAmt_Feb" msprop:Generator_ColumnPropNameInTable="Amt_FebColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Mar" msprop:Generator_UserColumnName="Amt_Mar" msprop:Generator_ColumnPropNameInRow="Amt_Mar" msprop:Generator_ColumnVarNameInTable="columnAmt_Mar" msprop:Generator_ColumnPropNameInTable="Amt_MarColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Apr" msprop:Generator_UserColumnName="Amt_Apr" msprop:Generator_ColumnPropNameInRow="Amt_Apr" msprop:Generator_ColumnVarNameInTable="columnAmt_Apr" msprop:Generator_ColumnPropNameInTable="Amt_AprColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_May" msprop:Generator_UserColumnName="Amt_May" msprop:Generator_ColumnPropNameInRow="Amt_May" msprop:Generator_ColumnVarNameInTable="columnAmt_May" msprop:Generator_ColumnPropNameInTable="Amt_MayColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Jun" msprop:Generator_UserColumnName="Amt_Jun" msprop:Generator_ColumnPropNameInRow="Amt_Jun" msprop:Generator_ColumnVarNameInTable="columnAmt_Jun" msprop:Generator_ColumnPropNameInTable="Amt_JunColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Jul" msprop:Generator_UserColumnName="Amt_Jul" msprop:Generator_ColumnPropNameInRow="Amt_Jul" msprop:Generator_ColumnVarNameInTable="columnAmt_Jul" msprop:Generator_ColumnPropNameInTable="Amt_JulColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Aug" msprop:Generator_UserColumnName="Amt_Aug" msprop:Generator_ColumnPropNameInRow="Amt_Aug" msprop:Generator_ColumnVarNameInTable="columnAmt_Aug" msprop:Generator_ColumnPropNameInTable="Amt_AugColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Sep" msprop:Generator_UserColumnName="Amt_Sep" msprop:Generator_ColumnPropNameInRow="Amt_Sep" msprop:Generator_ColumnVarNameInTable="columnAmt_Sep" msprop:Generator_ColumnPropNameInTable="Amt_SepColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Oct" msprop:Generator_UserColumnName="Amt_Oct" msprop:Generator_ColumnPropNameInRow="Amt_Oct" msprop:Generator_ColumnVarNameInTable="columnAmt_Oct" msprop:Generator_ColumnPropNameInTable="Amt_OctColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Nov" msprop:Generator_UserColumnName="Amt_Nov" msprop:Generator_ColumnPropNameInRow="Amt_Nov" msprop:Generator_ColumnVarNameInTable="columnAmt_Nov" msprop:Generator_ColumnPropNameInTable="Amt_NovColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amt_Dec" msprop:Generator_UserColumnName="Amt_Dec" msprop:Generator_ColumnPropNameInRow="Amt_Dec" msprop:Generator_ColumnVarNameInTable="columnAmt_Dec" msprop:Generator_ColumnPropNameInTable="Amt_DecColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CustomerSum" msprop:Generator_UserColumnName="CustomerSum" msprop:Generator_ColumnPropNameInRow="CustomerSum" msprop:Generator_ColumnVarNameInTable="columnCustomerSum" msprop:Generator_ColumnPropNameInTable="CustomerSumColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

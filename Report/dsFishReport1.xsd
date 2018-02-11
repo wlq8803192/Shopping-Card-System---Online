@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsFishReport1" targetNamespace="http://tempuri.org/dsFishReport1.xsd" xmlns:mstns="http://tempuri.org/dsFishReport1.xsd" xmlns="http://tempuri.org/dsFishReport1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsFishReport1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsFishReport1" msprop:Generator_UserDSName="dsFishReport1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbRep" msprop:Generator_UserTableName="tbRep" msprop:Generator_RowDeletedName="tbRepRowDeleted" msprop:Generator_TableClassName="tbRepDataTable" msprop:Generator_RowChangedName="tbRepRowChanged" msprop:Generator_RowClassName="tbRepRow" msprop:Generator_RowChangingName="tbRepRowChanging" msprop:Generator_RowEvArgName="tbRepRowChangeEvent" msprop:Generator_RowEvHandlerName="tbRepRowChangeEventHandler" msprop:Generator_TablePropName="tbRep" msprop:Generator_TableVarName="tabletbRep" msprop:Generator_RowDeletingName="tbRepRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StoreName" msprop:Generator_UserColumnName="StoreName" msprop:Generator_ColumnPropNameInRow="StoreName" msprop:Generator_ColumnVarNameInTable="columnStoreName" msprop:Generator_ColumnPropNameInTable="StoreNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalSales" msprop:Generator_UserColumnName="TotalSales" msprop:Generator_ColumnPropNameInRow="TotalSales" msprop:Generator_ColumnVarNameInTable="columnTotalSales" msprop:Generator_ColumnPropNameInTable="TotalSalesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalDebits" msprop:Generator_UserColumnName="TotalDebits" msprop:Generator_ColumnPropNameInRow="TotalDebits" msprop:Generator_ColumnVarNameInTable="columnTotalDebits" msprop:Generator_ColumnPropNameInTable="TotalDebitsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BigFishSales" msprop:Generator_UserColumnName="BigFishSales" msprop:Generator_ColumnPropNameInRow="BigFishSales" msprop:Generator_ColumnVarNameInTable="columnBigFishSales" msprop:Generator_ColumnPropNameInTable="BigFishSalesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BigFishDebits" msprop:Generator_UserColumnName="BigFishDebits" msprop:Generator_ColumnPropNameInRow="BigFishDebits" msprop:Generator_ColumnVarNameInTable="columnBigFishDebits" msprop:Generator_ColumnPropNameInTable="BigFishDebitsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MiddleFishSales" msprop:Generator_UserColumnName="MiddleFishSales" msprop:Generator_ColumnPropNameInRow="MiddleFishSales" msprop:Generator_ColumnVarNameInTable="columnMiddleFishSales" msprop:Generator_ColumnPropNameInTable="MiddleFishSalesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MiddleFishDebits" msprop:Generator_UserColumnName="MiddleFishDebits" msprop:Generator_ColumnPropNameInRow="MiddleFishDebits" msprop:Generator_ColumnVarNameInTable="columnMiddleFishDebits" msprop:Generator_ColumnPropNameInTable="MiddleFishDebitsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SmallFishSales" msprop:Generator_UserColumnName="SmallFishSales" msprop:Generator_ColumnPropNameInRow="SmallFishSales" msprop:Generator_ColumnVarNameInTable="columnSmallFishSales" msprop:Generator_ColumnPropNameInTable="SmallFishSalesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SmallFishDebits" msprop:Generator_UserColumnName="SmallFishDebits" msprop:Generator_ColumnPropNameInRow="SmallFishDebits" msprop:Generator_ColumnVarNameInTable="columnSmallFishDebits" msprop:Generator_ColumnPropNameInTable="SmallFishDebitsColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

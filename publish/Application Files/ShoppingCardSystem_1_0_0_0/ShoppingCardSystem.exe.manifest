@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.0" name="ShoppingCardSystem.exe" publicKeyToken="9b8583c5bd7d3868" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="SCLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ShoppingCardSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ShoppingCardSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+            如果希望更改 Windows 用户帐户控制级别，请用以下节点之一替换 
+            requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            如果您希望利用文件和注册表虚拟化提供
+            向后兼容性，请删除 requestedExecutionLevel 节点。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-CHS\Microsoft.Build.Utilities.v3.5.resources.dll" size="10752">
+      <assemblyIdentity name="Microsoft.Build.Utilities.v3.5.resources" version="3.5.0.0" publicKeyToken="B03F5F7F11D50A3A" language="zh-CHS" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yxTj/B2KVP0Er7ffV1jNaPpggbA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="report.dll" size="36352">
+      <assemblyIdentity name="report" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>40lUi1hQhFWDIaoZfF8tTtmRGCU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ShoppingCardSystem.exe" size="7856128">
+      <assemblyIdentity name="ShoppingCardSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XU60aC6QLDSeZGDhHX/5wR6lOs4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="report.dll" size="36352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>40lUi1hQhFWDIaoZfF8tTtmRGCU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\NewCustomer.png" size="25203">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>paHAagJgln9FmupVjNcDZx6xgXs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OpenContract.png" size="719">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AsnehGrMl4aSc9B7Ka+/1qP+E/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OpenCustomer.png" size="23327">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WbwahrnNhkSuevt0ak3LZz50XWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Refresh.png" size="21544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ybowdV63brCtiIvbvi592ufb8NI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SCLogo.ico" size="432254">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PJB2NG7AQCQVDNFh3Vz9c6Xms0Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ShoppingCardSystem.exe.config" size="5390">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/oFPNAWMp7znZ0G8She1oTRNaiw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="L=TPW, T=m-alipay, O=Alipay.com Corporation, OU=CA Center, CN=74936479ea77e0583d5f47c4d8c34623" issuerKeyHash="c8ba4f1a4b0dc51fc34a482758e92db8cba332f7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FMDfJRBtf01lV62wfJFNDvgumow=</DigestValue></Reference></SignedInfo><SignatureValue>rFF93UW4siKnufYwiUBA51F10I2AFBw7exJL4rNgxD9qOUpx1q7L/DVMH0+/pIxMrxIsTzdqUVnt4tcZqbv5mBe8LRP4OU67/uKv5ali8raDh/yK2BWQbkrjhAb6FxBtGg6e8+H4sLuYJnlHAWggvePvsloxOlDYnyVxkWMXYKE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6wI51mq6HCJucot16oR2IxXOmrJb2ECNaffeGgoVWnd3LNAkyKqRQ8bMym/3K09zylBmTEMSi6qosGjqlid/xbWbiYTLO2boDHgAOHmCgaKONPLqZrIa/rspa3EuOG5ebBNvHRao2BlfVkWfpaUwyEfUh5sj2qiJSWP10CojzU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8c9a2ef80e4d917cb0ad57654d7f6d1025dfc014" Description="" Url=""><as:assemblyIdentity version="1.0.0.0" name="ShoppingCardSystem.exe" publicKeyToken="9b8583c5bd7d3868" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>L=TPW, T=m-alipay, O=Alipay.com Corporation, OU=CA Center, CN=74936479ea77e0583d5f47c4d8c34623</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+zTaXzh+9bAKvZ+ydlylU0f9Jpo=</DigestValue></Reference></SignedInfo><SignatureValue>cflSeCqwevIsWFpEHpUZ4GLgCAJrAJnnSrhuoCIfFXPixc8JPMiNn1ovrNKJvkaeetpKDO/XRyl9pzE8QoOb0uSk67TX6+smU8T/I8dtPzUY/m+Mmxf956+HgpuxJPqffaZ7QSu5GuGzmMOknkj8PeKn/kJDCFtqJb7uuhFB9r0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6wI51mq6HCJucot16oR2IxXOmrJb2ECNaffeGgoVWnd3LNAkyKqRQ8bMym/3K09zylBmTEMSi6qosGjqlid/xbWbiYTLO2boDHgAOHmCgaKONPLqZrIa/rspa3EuOG5ebBNvHRao2BlfVkWfpaUwyEfUh5sj2qiJSWP10CojzU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDlDCCAnygAwIBAgIRAO5kkFzp/quBIz00HCAm688wDQYJKoZIhvcNAQEFBQAwaTEfMB0GA1UECgwWQWxpcGF5LmNvbSBDb3Jwb3JhdGlvbjEaMBgGA1UECwwRTWFjaGluZSBDQSBDZW50ZXIxKjAoBgNVBAMMIUFsaXBheS5jb20gQ29ycG9yYXRpb24gTWFjaGluZSBDQTAeFw0xNDAzMDIwMjMzMzhaFw0xNjAzMDEwMjMzMzhaMIGBMSkwJwYDVQQDDCA3NDkzNjQ3OWVhNzdlMDU4M2Q1ZjQ3YzRkOGMzNDYyMzESMBAGA1UECwwJQ0EgQ2VudGVyMR8wHQYDVQQKDBZBbGlwYXkuY29tIENvcnBvcmF0aW9uMREwDwYDVQQMDAhtLWFsaXBheTEMMAoGA1UEBwwDVFBXMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDrAjnWarocIm5yi3XqhHYjFc6aslvYQI1p994aChVad3cs0CTIqpFDxszKb/crT3PKUGZMQxKLqqiwaOqWJ3/FtZuJhMs7ZugMeAA4eYKBoo408upmshr+uylrcS44bl5sE28dFqjYGV9WRZ+lpTDIR9SHmyPaqIlJY/XQKiPNTQIDAQABo4GhMIGeMIGDBgNVHSMEfDB6gBTIuk8aSw3FH8NKSCdY6S24y6My96FdpFswWTEdMBsGA1UEAwwUQWxpcGF5IFRydXN0IE5ldFdvcmsxFzAVBgNVBAsMDlNlY3VyaXR5Q2VudGVyMR8wHQYDVQQKDBZBbGlwYXkuY29tIENvcnBvcmF0aW9uggMBaIEwCQYDVR0TBAIwADALBgNVHQ8EBAMCBJAwDQYJKoZIhvcNAQEFBQADggEBAAmwwzeqeXeIKqXtVQJQN32c5U0ZSedx7Q/wzHC0mjwybmYg3gvc/gUdXcBPOjqVDKBwDHRZ5RKEdLve9fgpc1kQtrMNJiYLEFqDvwGN1l5uoC5ygaIsEWA3ac5nR33QfNbp3r1U+MME63g3cWxZYolagnvwfeSbM7Ot9yOA1TqfebsYOKeEDMrIad5wd8A9hmNHwvUWY/sEZJHQx/D1i6rvsWa6MPfSKVtRWcJaXWWa1N5swWrsZxXdcyPBgoghDm1OaCT5S/q7aaFOiSrzXZAvOczIrkbZkyDemBl57LkczEVxS8+hkN0lZNDyupwUVL3ib8gtZzitfSCaybKRA8s=</X509Certificate><X509Certificate>MIIDczCCAlugAwIBAgIDAWiBMA0GCSqGSIb3DQEBBQUAMFkxHTAbBgNVBAMMFEFsaXBheSBUcnVzdCBOZXRXb3JrMRcwFQYDVQQLDA5TZWN1cml0eUNlbnRlcjEfMB0GA1UECgwWQWxpcGF5LmNvbSBDb3Jwb3JhdGlvbjAeFw0xMjAxMDEwNzI3MDNaFw0yNjEyMzEwNzI3MDNaMGkxKjAoBgNVBAMMIUFsaXBheS5jb20gQ29ycG9yYXRpb24gTWFjaGluZSBDQTEaMBgGA1UECwwRTWFjaGluZSBDQSBDZW50ZXIxHzAdBgNVBAoMFkFsaXBheS5jb20gQ29ycG9yYXRpb24wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDknrZlZtQ8ufYV/Cfg00Hrq/+06eNqeZlsDnCTuPKpF/23v2mUnRzWo0O2UU95w4l51Rp+2XSVbAPaCeB8xu5FyqyiWSgFkGXwIieiSKPE9Qg8K3g/0nllxfBFE9DE+0LgYz/otyCIg8aO3ISDj8uRgBC8euTpGq/EGDxvpdpHrQuUJrpJLaiH9Pe369yu+TjbgwMhrFVvlkVe8IFr4l87ERRD47EvAhgOwgMvzIBHV15Yp3shIHtiQTUh39iTUrw943npgwCxxwATWa2mZ3EvbV7U8Kcy14dECIkwzJNAVLd6rZf+9jnEDbq4w9AkAzRF2zjC1IZQXwX6FG604J8hAgMBAAGjNDAyMAsGA1UdDwQEAwIBhjAVBgNVHSUEDjAMBgorBgEEAYI3CgwBMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBAHNyZvGz0lNvfZanuurQinB1hjPf97jp/Xfo2/xq2p77AqouYWY+/VD/Z3UPOzVytlMbH2HXS7LM88dmTt7gvH/VFnLCdnRw3f6zSWYMsWEmSkMZhDXsZ1k9M+BDcY7LReDwHcb3DqN+8E231bNcIQt21emInkMLR5BaF6L3fCJV2f0of+kOQZBftz6sPZTer9HgwloxQE0ghmOv02HbzFQzAcARj6hCkFH8Od6IKfF9R17voLvZE1lGbzTZyB7SlyleKKMON9fgjyAM98v1FS4RMxIyyGGEixJCIPON16SCzWB3P8t6UHVqYmum5SW2DjQNfcDxCvxyadVQi4xIVug=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

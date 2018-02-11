@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://microsoft.com/webservices/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://microsoft.com/webservices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/webservices/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestQueryCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodePassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestQueryCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestQueryCodeResult" type="tns:CodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CodeInfoResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodePassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DiscountTotal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlowId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sponsor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Notes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ValidDate" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CodeMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TestQueryCode_1">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestQueryCode_1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestQueryCode_1Result" type="tns:CodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestSetCodeConfirm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodePassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestSetCodeConfirmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestSetCodeConfirmResult" type="tns:SetCodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SetCodeInfoResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DealId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TestSetCodeCancel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodePassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestSetCodeCancelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestSetCodeCancelResult" type="tns:SetCodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestConnectDatabase_ShoppingCard">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestConnectDatabase_ShoppingCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestConnectDatabase_ShoppingCardResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestConnectDatabase_ActivateCard">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestConnectDatabase_ActivateCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestConnectDatabase_ActivateCardResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:CodeInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CodeInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GroupId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShopId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Account" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Passwd" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlowId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodePassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DealAmountTotal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DealDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryCodeResult" type="tns:CodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:SetCodeInfo" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SetCodeInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GroupId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ShopId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Account" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Passwd" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FlowId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SerialNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodePassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConfirmAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Key" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GuIDClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GuID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SetCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetCodeResult" type="tns:SetCodeInfoResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestQueryCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:TestQueryCode" />
+  </wsdl:message>
+  <wsdl:message name="TestQueryCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:TestQueryCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestQueryCode_1SoapIn">
+    <wsdl:part name="parameters" element="tns:TestQueryCode_1" />
+  </wsdl:message>
+  <wsdl:message name="TestQueryCode_1SoapOut">
+    <wsdl:part name="parameters" element="tns:TestQueryCode_1Response" />
+  </wsdl:message>
+  <wsdl:message name="TestSetCodeConfirmSoapIn">
+    <wsdl:part name="parameters" element="tns:TestSetCodeConfirm" />
+  </wsdl:message>
+  <wsdl:message name="TestSetCodeConfirmSoapOut">
+    <wsdl:part name="parameters" element="tns:TestSetCodeConfirmResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSetCodeCancelSoapIn">
+    <wsdl:part name="parameters" element="tns:TestSetCodeCancel" />
+  </wsdl:message>
+  <wsdl:message name="TestSetCodeCancelSoapOut">
+    <wsdl:part name="parameters" element="tns:TestSetCodeCancelResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectDatabase_ShoppingCardSoapIn">
+    <wsdl:part name="parameters" element="tns:TestConnectDatabase_ShoppingCard" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectDatabase_ShoppingCardSoapOut">
+    <wsdl:part name="parameters" element="tns:TestConnectDatabase_ShoppingCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectDatabase_ActivateCardSoapIn">
+    <wsdl:part name="parameters" element="tns:TestConnectDatabase_ActivateCard" />
+  </wsdl:message>
+  <wsdl:message name="TestConnectDatabase_ActivateCardSoapOut">
+    <wsdl:part name="parameters" element="tns:TestConnectDatabase_ActivateCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryCode" />
+  </wsdl:message>
+  <wsdl:message name="QueryCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:SetCode" />
+  </wsdl:message>
+  <wsdl:message name="SetCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:SetCodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestQueryCode">
+      <wsdl:input message="tns:TestQueryCodeSoapIn" />
+      <wsdl:output message="tns:TestQueryCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestQueryCode_1">
+      <wsdl:input message="tns:TestQueryCode_1SoapIn" />
+      <wsdl:output message="tns:TestQueryCode_1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestSetCodeConfirm">
+      <wsdl:input message="tns:TestSetCodeConfirmSoapIn" />
+      <wsdl:output message="tns:TestSetCodeConfirmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestSetCodeCancel">
+      <wsdl:input message="tns:TestSetCodeCancelSoapIn" />
+      <wsdl:output message="tns:TestSetCodeCancelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectDatabase_ShoppingCard">
+      <wsdl:input message="tns:TestConnectDatabase_ShoppingCardSoapIn" />
+      <wsdl:output message="tns:TestConnectDatabase_ShoppingCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectDatabase_ActivateCard">
+      <wsdl:input message="tns:TestConnectDatabase_ActivateCardSoapIn" />
+      <wsdl:output message="tns:TestConnectDatabase_ActivateCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryCode">
+      <wsdl:input message="tns:QueryCodeSoapIn" />
+      <wsdl:output message="tns:QueryCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCode">
+      <wsdl:input message="tns:SetCodeSoapIn" />
+      <wsdl:output message="tns:SetCodeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://microsoft.com/webservices/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestQueryCode">
+      <soap:operation soapAction="http://microsoft.com/webservices/TestQueryCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestQueryCode_1">
+      <soap:operation soapAction="http://microsoft.com/webservices/TestQueryCode_1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSetCodeConfirm">
+      <soap:operation soapAction="http://microsoft.com/webservices/TestSetCodeConfirm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSetCodeCancel">
+      <soap:operation soapAction="http://microsoft.com/webservices/TestSetCodeCancel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectDatabase_ShoppingCard">
+      <soap:operation soapAction="http://microsoft.com/webservices/TestConnectDatabase_ShoppingCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectDatabase_ActivateCard">
+      <soap:operation soapAction="http://microsoft.com/webservices/TestConnectDatabase_ActivateCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryCode">
+      <soap:operation soapAction="http://microsoft.com/webservices/QueryCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCode">
+      <soap:operation soapAction="http://microsoft.com/webservices/SetCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://microsoft.com/webservices/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestQueryCode">
+      <soap12:operation soapAction="http://microsoft.com/webservices/TestQueryCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestQueryCode_1">
+      <soap12:operation soapAction="http://microsoft.com/webservices/TestQueryCode_1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSetCodeConfirm">
+      <soap12:operation soapAction="http://microsoft.com/webservices/TestSetCodeConfirm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestSetCodeCancel">
+      <soap12:operation soapAction="http://microsoft.com/webservices/TestSetCodeCancel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectDatabase_ShoppingCard">
+      <soap12:operation soapAction="http://microsoft.com/webservices/TestConnectDatabase_ShoppingCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestConnectDatabase_ActivateCard">
+      <soap12:operation soapAction="http://microsoft.com/webservices/TestConnectDatabase_ActivateCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryCode">
+      <soap12:operation soapAction="http://microsoft.com/webservices/QueryCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCode">
+      <soap12:operation soapAction="http://microsoft.com/webservices/SetCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:105/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:105/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

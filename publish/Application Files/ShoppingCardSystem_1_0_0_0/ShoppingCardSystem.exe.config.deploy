@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="ShoppingCardSystem.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="ShoppingCardSystem.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- 本节定义 My.Application.Log 的登录配置-->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- 取消注释以下一节可写入应用程序事件日志-->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- 取消注释以下一节并用应用程序名替换 APPLICATION_NAME 可写入应用程序事件日志-->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <ShoppingCardSystem.My.MySettings>
+            <setting name="LastLoginUser" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ShowNavigationWhenStart" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="TicketPrinter" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="InvoicePrinter" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ContractPrinter" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="IsInTraining" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="NotifyMessage" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="F1" serializeAs="String">
+                <value>中国</value>
+            </setting>
+            <setting name="F2" serializeAs="String">
+                <value>北京</value>
+            </setting>
+            <setting name="F3" serializeAs="String">
+                <value>公司</value>
+            </setting>
+            <setting name="F4" serializeAs="String">
+                <value>部队</value>
+            </setting>
+            <setting name="F5" serializeAs="String">
+                <value>大学</value>
+            </setting>
+            <setting name="F6" serializeAs="String">
+                <value>&lt;未定义&gt;</value>
+            </setting>
+            <setting name="F7" serializeAs="String">
+                <value>&lt;未定义&gt;</value>
+            </setting>
+            <setting name="F8" serializeAs="String">
+                <value>&lt;未定义&gt;</value>
+            </setting>
+            <setting name="F9" serializeAs="String">
+                <value>&lt;未定义&gt;</value>
+            </setting>
+            <setting name="F10" serializeAs="String">
+                <value>&lt;未定义&gt;</value>
+            </setting>
+            <setting name="ApplicationFormPrinter" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="PrintInvoiceLine" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="GiftCardCancellationPrinter" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="InvoiceDevicePort" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="GiftCardOfflineActivationPrinter" serializeAs="String">
+                <value />
+            </setting>
+        </ShoppingCardSystem.My.MySettings>
+    </userSettings>
+    <applicationSettings>
+        <ShoppingCardSystem.My.MySettings>
+            <setting name="ShoppingCardSystem_WebServiceConfig_Service" serializeAs="String">
+                <value>http://scswebservice.cdc.carrefour.com/SCWebServiceConfig/Service.asmx</value>
+            </setting>
+        </ShoppingCardSystem.My.MySettings>
+    </applicationSettings>
+</configuration>
+

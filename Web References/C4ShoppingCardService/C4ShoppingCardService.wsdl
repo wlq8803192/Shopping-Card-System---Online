@@ -1,0 +1,2113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://ChinaIT.Carrefour.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://ChinaIT.Carrefour.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ChinaIT.Carrefour.com/">
+      <s:element name="vinfoTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="vinfoTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vinfoTestResult" type="tns:VInfoDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VInfoDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Vouchers" type="tns:ArrayOfVoucher" />
+          <s:element minOccurs="0" maxOccurs="1" name="Total" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VCodeMsg" type="tns:VCodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfVoucher">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Voucher" nillable="true" type="tns:Voucher" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Voucher">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeqNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExpiredDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ActivedDMer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ActivedMerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ActivedDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UseMer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UseMerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UseTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="VCodeMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="echo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="echoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="echoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="status">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:StatusClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="StatusClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GuIDClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GuID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="statusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="statusResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CodeMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="islv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IslvClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IslvClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExpiredDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Discount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BuyPerson" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="islvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="islvResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="idad">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IdadClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IdadClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RCorporateNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RMerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="idadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idadResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="itrf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:ItrfClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ItrfClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="itrfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="itrfResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ictv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IctvClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IctvClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ictvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ictvResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="irec">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IrecClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IrecClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="irecResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="irecResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="idvv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IdvvClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IdvvClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DMerchantNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="idvvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idvvResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="idvvtest">
+        <s:complexType />
+      </s:element>
+      <s:element name="idvvtestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idvvtestResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="rstp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:RstpClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RstpClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="rstpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rstpResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:UpdpClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UpdpClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OldPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NewPassword" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="updpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updpResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vstat">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:VStatusClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VStatusClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VTypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VSeqNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VSeqNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vstatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vstatResult" type="tns:VCodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vidvv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:VIdvvClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VIdvvClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VTypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VSeqNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VSeqNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VTotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vidvvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vidvvResult" type="tns:VCodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vrstp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:VRstpClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VRstpClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VTypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VSeqNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VSeqNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeqNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vrstpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vrstpResult" type="tns:VCodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vtxnvoid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:VTxnvoidClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VTxnvoidClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TermNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnSeq" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vtxnvoidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vtxnvoidResult" type="tns:VCodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="info">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:InfoClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InfoClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="infoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="infoResult" type="tns:InfoDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InfoDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Cards" type="tns:ArrayOfCard" />
+          <s:element minOccurs="0" maxOccurs="1" name="Total" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCard">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Card" nillable="true" type="tns:Card" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Card">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Balance" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ActivedDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotReason" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExpiredDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerMerchant" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerCreateUser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoyaltyClub" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="infoTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="infoTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="infoTestResult" type="tns:InfoDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="vinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:VInfoClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VInfoClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeqNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeqNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vinfoResult" type="tns:VInfoDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ctqy">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:CtqyClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CtqyClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QueryType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ctqyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ctqyResult" type="tns:CtqyDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CtqyDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardTxns" type="tns:ArrayOfCardTxn" />
+          <s:element minOccurs="0" maxOccurs="1" name="Total" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCardTxn">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CardTxn" nillable="true" type="tns:CardTxn" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CardTxn">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TxnId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InputChannel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EarnAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RedeemAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TransferAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AdjustAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TermNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vtqy">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:VtqyClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VtqyClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TermNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QueryType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TypeId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeqNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="vtqyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="vtqyResult" type="tns:VtqyDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VtqyDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherTxns" type="tns:ArrayOfVoucherTxn" />
+          <s:element minOccurs="0" maxOccurs="1" name="Total" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VCodeMsg" type="tns:VCodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfVoucherTxn">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="VoucherTxn" nillable="true" type="tns:VoucherTxn" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="VoucherTxn">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TxnId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SettleDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TermNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TraceNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BatchNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RefNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RespCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OperType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VoucherNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ICNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TranCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TranMode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreateTimestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getBalance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:InfoClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getBalanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getBalanceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getBalanceTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="getBalanceTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getBalanceTestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="icInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IcClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IcClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IcType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="icInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="icInfoResult" type="tns:IcDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IcDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Cards" type="tns:ArrayOfIcCard" />
+          <s:element minOccurs="0" maxOccurs="1" name="Total" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfIcCard">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="IcCard" nillable="true" type="tns:IcCard" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="IcCard">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Balance" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ActivedDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotReason" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExpiredDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNoName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotReasonName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="icDestoryCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IcDestoryClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IcDestoryClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IcType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotReason" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="icDestoryCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="icDestoryCardResult" type="tns:IcDestoryDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IcDestoryDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Balance" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="inactive">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:InactiveClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InactiveClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ean" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RefNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OpeType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="inactiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="inactiveResult" type="tns:InactiveDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InactiveDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ean" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardPrice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SaleAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RefNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="offlineActiveC4p">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:OfflineActiveClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OfflineActiveClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ean" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="offlineActiveC4pResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="offlineActiveC4pResult" type="tns:OfflineActiveDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OfflineActiveDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TermNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ean" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosBatchNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PosRefNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RetriRefNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardPrice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SalePrice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ManageCard" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="offlineActiveC4pTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="offlineActiveC4pTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="offlineActiveC4pTestResult" type="tns:OfflineActiveDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="active">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:ActiveClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ActiveClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ean" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SalePrice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="activeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="activeResult" type="tns:ActiveDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ActiveDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ean" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SalePrice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqTxnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="batchPostpone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:BatchPostponeClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BatchPostponeClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReqExpireDate" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="batchPostponeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="batchPostponeResult" type="tns:InfoDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="m27j27CardInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:M27j27CardInfoClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="M27j27CardInfoClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="m27j27CardInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="m27j27CardInfoResult" type="tns:InfoDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="m27j27CardTxn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:M27j27CardTxnClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="M27j27CardTxnClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QueryType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DateTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IsPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PageSize" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="m27j27CardTxnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="m27j27CardTxnResult" type="tns:CtqyDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DestoryCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:DestoryClass" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DestoryClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HotReason" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DestoryCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DestoryCardResult" type="tns:DestoryDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DestoryDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="islvBySignUnSign">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:IslvBySignUnSignBean" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IslvBySignUnSignBean">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DiscountAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SignFlag" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderCardInfos" type="tns:ArrayOfOrderCardInfo" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderPayInfos" type="tns:ArrayOfOrderPayInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfOrderCardInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OrderCardInfo" nillable="true" type="tns:OrderCardInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OrderCardInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExpiredDate" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfOrderPayInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OrderPayInfo" nillable="true" type="tns:OrderPayInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OrderPayInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PayType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PayAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BankName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BankCardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remark" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="islvBySignUnSignResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="islvBySignUnSignResult" type="tns:IslvBySignUnSignData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="IslvBySignUnSignData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TxnNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="cardSignFlagRegister">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:CardSignFlagRegisterBean" />
+            <s:element minOccurs="0" maxOccurs="1" name="GClass" type="tns:GuIDClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CardSignFlagRegisterBean">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardSignFlagRegisterInfos" type="tns:ArrayOfCardSignFlagRegisterInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCardSignFlagRegisterInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CardSignFlagRegisterInfo" nillable="true" type="tns:CardSignFlagRegisterInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CardSignFlagRegisterInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNoTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SignFlag" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="cardSignFlagRegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardSignFlagRegisterResult" type="tns:CodeMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="vinfoTestSoapIn">
+    <wsdl:part name="parameters" element="tns:vinfoTest" />
+  </wsdl:message>
+  <wsdl:message name="vinfoTestSoapOut">
+    <wsdl:part name="parameters" element="tns:vinfoTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="echoSoapIn">
+    <wsdl:part name="parameters" element="tns:echo" />
+  </wsdl:message>
+  <wsdl:message name="echoSoapOut">
+    <wsdl:part name="parameters" element="tns:echoResponse" />
+  </wsdl:message>
+  <wsdl:message name="statusSoapIn">
+    <wsdl:part name="parameters" element="tns:status" />
+  </wsdl:message>
+  <wsdl:message name="statusSoapOut">
+    <wsdl:part name="parameters" element="tns:statusResponse" />
+  </wsdl:message>
+  <wsdl:message name="islvSoapIn">
+    <wsdl:part name="parameters" element="tns:islv" />
+  </wsdl:message>
+  <wsdl:message name="islvSoapOut">
+    <wsdl:part name="parameters" element="tns:islvResponse" />
+  </wsdl:message>
+  <wsdl:message name="idadSoapIn">
+    <wsdl:part name="parameters" element="tns:idad" />
+  </wsdl:message>
+  <wsdl:message name="idadSoapOut">
+    <wsdl:part name="parameters" element="tns:idadResponse" />
+  </wsdl:message>
+  <wsdl:message name="itrfSoapIn">
+    <wsdl:part name="parameters" element="tns:itrf" />
+  </wsdl:message>
+  <wsdl:message name="itrfSoapOut">
+    <wsdl:part name="parameters" element="tns:itrfResponse" />
+  </wsdl:message>
+  <wsdl:message name="ictvSoapIn">
+    <wsdl:part name="parameters" element="tns:ictv" />
+  </wsdl:message>
+  <wsdl:message name="ictvSoapOut">
+    <wsdl:part name="parameters" element="tns:ictvResponse" />
+  </wsdl:message>
+  <wsdl:message name="irecSoapIn">
+    <wsdl:part name="parameters" element="tns:irec" />
+  </wsdl:message>
+  <wsdl:message name="irecSoapOut">
+    <wsdl:part name="parameters" element="tns:irecResponse" />
+  </wsdl:message>
+  <wsdl:message name="idvvSoapIn">
+    <wsdl:part name="parameters" element="tns:idvv" />
+  </wsdl:message>
+  <wsdl:message name="idvvSoapOut">
+    <wsdl:part name="parameters" element="tns:idvvResponse" />
+  </wsdl:message>
+  <wsdl:message name="idvvtestSoapIn">
+    <wsdl:part name="parameters" element="tns:idvvtest" />
+  </wsdl:message>
+  <wsdl:message name="idvvtestSoapOut">
+    <wsdl:part name="parameters" element="tns:idvvtestResponse" />
+  </wsdl:message>
+  <wsdl:message name="rstpSoapIn">
+    <wsdl:part name="parameters" element="tns:rstp" />
+  </wsdl:message>
+  <wsdl:message name="rstpSoapOut">
+    <wsdl:part name="parameters" element="tns:rstpResponse" />
+  </wsdl:message>
+  <wsdl:message name="updpSoapIn">
+    <wsdl:part name="parameters" element="tns:updp" />
+  </wsdl:message>
+  <wsdl:message name="updpSoapOut">
+    <wsdl:part name="parameters" element="tns:updpResponse" />
+  </wsdl:message>
+  <wsdl:message name="vstatSoapIn">
+    <wsdl:part name="parameters" element="tns:vstat" />
+  </wsdl:message>
+  <wsdl:message name="vstatSoapOut">
+    <wsdl:part name="parameters" element="tns:vstatResponse" />
+  </wsdl:message>
+  <wsdl:message name="vidvvSoapIn">
+    <wsdl:part name="parameters" element="tns:vidvv" />
+  </wsdl:message>
+  <wsdl:message name="vidvvSoapOut">
+    <wsdl:part name="parameters" element="tns:vidvvResponse" />
+  </wsdl:message>
+  <wsdl:message name="vrstpSoapIn">
+    <wsdl:part name="parameters" element="tns:vrstp" />
+  </wsdl:message>
+  <wsdl:message name="vrstpSoapOut">
+    <wsdl:part name="parameters" element="tns:vrstpResponse" />
+  </wsdl:message>
+  <wsdl:message name="vtxnvoidSoapIn">
+    <wsdl:part name="parameters" element="tns:vtxnvoid" />
+  </wsdl:message>
+  <wsdl:message name="vtxnvoidSoapOut">
+    <wsdl:part name="parameters" element="tns:vtxnvoidResponse" />
+  </wsdl:message>
+  <wsdl:message name="infoSoapIn">
+    <wsdl:part name="parameters" element="tns:info" />
+  </wsdl:message>
+  <wsdl:message name="infoSoapOut">
+    <wsdl:part name="parameters" element="tns:infoResponse" />
+  </wsdl:message>
+  <wsdl:message name="infoTestSoapIn">
+    <wsdl:part name="parameters" element="tns:infoTest" />
+  </wsdl:message>
+  <wsdl:message name="infoTestSoapOut">
+    <wsdl:part name="parameters" element="tns:infoTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="vinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:vinfo" />
+  </wsdl:message>
+  <wsdl:message name="vinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:vinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ctqySoapIn">
+    <wsdl:part name="parameters" element="tns:ctqy" />
+  </wsdl:message>
+  <wsdl:message name="ctqySoapOut">
+    <wsdl:part name="parameters" element="tns:ctqyResponse" />
+  </wsdl:message>
+  <wsdl:message name="vtqySoapIn">
+    <wsdl:part name="parameters" element="tns:vtqy" />
+  </wsdl:message>
+  <wsdl:message name="vtqySoapOut">
+    <wsdl:part name="parameters" element="tns:vtqyResponse" />
+  </wsdl:message>
+  <wsdl:message name="getBalanceSoapIn">
+    <wsdl:part name="parameters" element="tns:getBalance" />
+  </wsdl:message>
+  <wsdl:message name="getBalanceSoapOut">
+    <wsdl:part name="parameters" element="tns:getBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="getBalanceTestSoapIn">
+    <wsdl:part name="parameters" element="tns:getBalanceTest" />
+  </wsdl:message>
+  <wsdl:message name="getBalanceTestSoapOut">
+    <wsdl:part name="parameters" element="tns:getBalanceTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="icInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:icInfo" />
+  </wsdl:message>
+  <wsdl:message name="icInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:icInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="icDestoryCardSoapIn">
+    <wsdl:part name="parameters" element="tns:icDestoryCard" />
+  </wsdl:message>
+  <wsdl:message name="icDestoryCardSoapOut">
+    <wsdl:part name="parameters" element="tns:icDestoryCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="inactiveSoapIn">
+    <wsdl:part name="parameters" element="tns:inactive" />
+  </wsdl:message>
+  <wsdl:message name="inactiveSoapOut">
+    <wsdl:part name="parameters" element="tns:inactiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="offlineActiveC4pSoapIn">
+    <wsdl:part name="parameters" element="tns:offlineActiveC4p" />
+  </wsdl:message>
+  <wsdl:message name="offlineActiveC4pSoapOut">
+    <wsdl:part name="parameters" element="tns:offlineActiveC4pResponse" />
+  </wsdl:message>
+  <wsdl:message name="offlineActiveC4pTestSoapIn">
+    <wsdl:part name="parameters" element="tns:offlineActiveC4pTest" />
+  </wsdl:message>
+  <wsdl:message name="offlineActiveC4pTestSoapOut">
+    <wsdl:part name="parameters" element="tns:offlineActiveC4pTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="activeSoapIn">
+    <wsdl:part name="parameters" element="tns:active" />
+  </wsdl:message>
+  <wsdl:message name="activeSoapOut">
+    <wsdl:part name="parameters" element="tns:activeResponse" />
+  </wsdl:message>
+  <wsdl:message name="batchPostponeSoapIn">
+    <wsdl:part name="parameters" element="tns:batchPostpone" />
+  </wsdl:message>
+  <wsdl:message name="batchPostponeSoapOut">
+    <wsdl:part name="parameters" element="tns:batchPostponeResponse" />
+  </wsdl:message>
+  <wsdl:message name="m27j27CardInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:m27j27CardInfo" />
+  </wsdl:message>
+  <wsdl:message name="m27j27CardInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:m27j27CardInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="m27j27CardTxnSoapIn">
+    <wsdl:part name="parameters" element="tns:m27j27CardTxn" />
+  </wsdl:message>
+  <wsdl:message name="m27j27CardTxnSoapOut">
+    <wsdl:part name="parameters" element="tns:m27j27CardTxnResponse" />
+  </wsdl:message>
+  <wsdl:message name="DestoryCardSoapIn">
+    <wsdl:part name="parameters" element="tns:DestoryCard" />
+  </wsdl:message>
+  <wsdl:message name="DestoryCardSoapOut">
+    <wsdl:part name="parameters" element="tns:DestoryCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="islvBySignUnSignSoapIn">
+    <wsdl:part name="parameters" element="tns:islvBySignUnSign" />
+  </wsdl:message>
+  <wsdl:message name="islvBySignUnSignSoapOut">
+    <wsdl:part name="parameters" element="tns:islvBySignUnSignResponse" />
+  </wsdl:message>
+  <wsdl:message name="cardSignFlagRegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:cardSignFlagRegister" />
+  </wsdl:message>
+  <wsdl:message name="cardSignFlagRegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:cardSignFlagRegisterResponse" />
+  </wsdl:message>
+  <wsdl:portType name="C4ShoppingCardServiceSoap">
+    <wsdl:operation name="vinfoTest">
+      <wsdl:input message="tns:vinfoTestSoapIn" />
+      <wsdl:output message="tns:vinfoTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <wsdl:input message="tns:echoSoapIn" />
+      <wsdl:output message="tns:echoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="status">
+      <wsdl:input message="tns:statusSoapIn" />
+      <wsdl:output message="tns:statusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="islv">
+      <wsdl:input message="tns:islvSoapIn" />
+      <wsdl:output message="tns:islvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="idad">
+      <wsdl:input message="tns:idadSoapIn" />
+      <wsdl:output message="tns:idadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="itrf">
+      <wsdl:input message="tns:itrfSoapIn" />
+      <wsdl:output message="tns:itrfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ictv">
+      <wsdl:input message="tns:ictvSoapIn" />
+      <wsdl:output message="tns:ictvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="irec">
+      <wsdl:input message="tns:irecSoapIn" />
+      <wsdl:output message="tns:irecSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="idvv">
+      <wsdl:input message="tns:idvvSoapIn" />
+      <wsdl:output message="tns:idvvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="idvvtest">
+      <wsdl:input message="tns:idvvtestSoapIn" />
+      <wsdl:output message="tns:idvvtestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="rstp">
+      <wsdl:input message="tns:rstpSoapIn" />
+      <wsdl:output message="tns:rstpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updp">
+      <wsdl:input message="tns:updpSoapIn" />
+      <wsdl:output message="tns:updpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="vstat">
+      <wsdl:input message="tns:vstatSoapIn" />
+      <wsdl:output message="tns:vstatSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="vidvv">
+      <wsdl:input message="tns:vidvvSoapIn" />
+      <wsdl:output message="tns:vidvvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="vrstp">
+      <wsdl:input message="tns:vrstpSoapIn" />
+      <wsdl:output message="tns:vrstpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="vtxnvoid">
+      <wsdl:input message="tns:vtxnvoidSoapIn" />
+      <wsdl:output message="tns:vtxnvoidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="info">
+      <wsdl:input message="tns:infoSoapIn" />
+      <wsdl:output message="tns:infoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="infoTest">
+      <wsdl:input message="tns:infoTestSoapIn" />
+      <wsdl:output message="tns:infoTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="vinfo">
+      <wsdl:input message="tns:vinfoSoapIn" />
+      <wsdl:output message="tns:vinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ctqy">
+      <wsdl:input message="tns:ctqySoapIn" />
+      <wsdl:output message="tns:ctqySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="vtqy">
+      <wsdl:input message="tns:vtqySoapIn" />
+      <wsdl:output message="tns:vtqySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getBalance">
+      <wsdl:input message="tns:getBalanceSoapIn" />
+      <wsdl:output message="tns:getBalanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getBalanceTest">
+      <wsdl:input message="tns:getBalanceTestSoapIn" />
+      <wsdl:output message="tns:getBalanceTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="icInfo">
+      <wsdl:input message="tns:icInfoSoapIn" />
+      <wsdl:output message="tns:icInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="icDestoryCard">
+      <wsdl:input message="tns:icDestoryCardSoapIn" />
+      <wsdl:output message="tns:icDestoryCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="inactive">
+      <wsdl:input message="tns:inactiveSoapIn" />
+      <wsdl:output message="tns:inactiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="offlineActiveC4p">
+      <wsdl:input message="tns:offlineActiveC4pSoapIn" />
+      <wsdl:output message="tns:offlineActiveC4pSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="offlineActiveC4pTest">
+      <wsdl:input message="tns:offlineActiveC4pTestSoapIn" />
+      <wsdl:output message="tns:offlineActiveC4pTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="active">
+      <wsdl:input message="tns:activeSoapIn" />
+      <wsdl:output message="tns:activeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="batchPostpone">
+      <wsdl:input message="tns:batchPostponeSoapIn" />
+      <wsdl:output message="tns:batchPostponeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="m27j27CardInfo">
+      <wsdl:input message="tns:m27j27CardInfoSoapIn" />
+      <wsdl:output message="tns:m27j27CardInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="m27j27CardTxn">
+      <wsdl:input message="tns:m27j27CardTxnSoapIn" />
+      <wsdl:output message="tns:m27j27CardTxnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DestoryCard">
+      <wsdl:input message="tns:DestoryCardSoapIn" />
+      <wsdl:output message="tns:DestoryCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="islvBySignUnSign">
+      <wsdl:input message="tns:islvBySignUnSignSoapIn" />
+      <wsdl:output message="tns:islvBySignUnSignSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cardSignFlagRegister">
+      <wsdl:input message="tns:cardSignFlagRegisterSoapIn" />
+      <wsdl:output message="tns:cardSignFlagRegisterSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="C4ShoppingCardServiceSoap" type="tns:C4ShoppingCardServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="vinfoTest">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vinfoTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/echo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="status">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/status" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="islv">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/islv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idad">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/idad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itrf">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/itrf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ictv">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/ictv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="irec">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/irec" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idvv">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/idvv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idvvtest">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/idvvtest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rstp">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/rstp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updp">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/updp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vstat">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vstat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vidvv">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vidvv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vrstp">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vrstp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vtxnvoid">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vtxnvoid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="info">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/info" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="infoTest">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/infoTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vinfo">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ctqy">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/ctqy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vtqy">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/vtqy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBalance">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/getBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBalanceTest">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/getBalanceTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="icInfo">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/icInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="icDestoryCard">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/icDestoryCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="inactive">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/inactive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="offlineActiveC4p">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/offlineActiveC4p" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="offlineActiveC4pTest">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/offlineActiveC4pTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="active">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/active" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="batchPostpone">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/batchPostpone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="m27j27CardInfo">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/m27j27CardInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="m27j27CardTxn">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/m27j27CardTxn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DestoryCard">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/DestoryCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="islvBySignUnSign">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/islvBySignUnSign" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cardSignFlagRegister">
+      <soap:operation soapAction="http://ChinaIT.Carrefour.com/cardSignFlagRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="C4ShoppingCardServiceSoap12" type="tns:C4ShoppingCardServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="vinfoTest">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vinfoTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/echo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="status">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/status" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="islv">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/islv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idad">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/idad" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itrf">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/itrf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ictv">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/ictv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="irec">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/irec" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idvv">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/idvv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idvvtest">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/idvvtest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rstp">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/rstp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updp">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/updp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vstat">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vstat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vidvv">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vidvv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vrstp">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vrstp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vtxnvoid">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vtxnvoid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="info">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/info" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="infoTest">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/infoTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vinfo">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ctqy">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/ctqy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vtqy">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/vtqy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBalance">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/getBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBalanceTest">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/getBalanceTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="icInfo">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/icInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="icDestoryCard">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/icDestoryCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="inactive">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/inactive" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="offlineActiveC4p">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/offlineActiveC4p" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="offlineActiveC4pTest">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/offlineActiveC4pTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="active">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/active" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="batchPostpone">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/batchPostpone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="m27j27CardInfo">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/m27j27CardInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="m27j27CardTxn">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/m27j27CardTxn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DestoryCard">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/DestoryCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="islvBySignUnSign">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/islvBySignUnSign" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cardSignFlagRegister">
+      <soap12:operation soapAction="http://ChinaIT.Carrefour.com/cardSignFlagRegister" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="C4ShoppingCardService">
+    <wsdl:port name="C4ShoppingCardServiceSoap" binding="tns:C4ShoppingCardServiceSoap">
+      <soap:address location="http://localhost:90/C4ShoppingCardService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="C4ShoppingCardServiceSoap12" binding="tns:C4ShoppingCardServiceSoap12">
+      <soap12:address location="http://localhost:90/C4ShoppingCardService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

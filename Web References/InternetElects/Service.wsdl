@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelRequestTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelRequestTestResult" type="tns:CancelResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CancelResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CodeMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CancelRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:CancelInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CancelInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Operators" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CancelRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelRequestResult" type="tns:CancelResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FreezeRequestTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FreezeRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FreezeRequestTestResult" type="tns:FreezeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="FreezeResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="FreezeRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:FreezeInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="FreezeInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Operators" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Freeze" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="FreezeRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FreezeRequestResult" type="tns:FreezeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostPoneRequestTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostPoneRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostPoneRequestTestResult" type="tns:PostPoneResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PostPoneResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PostPoneRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:PostPoneInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PostPoneInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Operators" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Date" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PostPoneRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostPoneRequestResult" type="tns:PostPoneResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryOrderRequestTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryOrderRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryOrderRequestTestResult" type="tns:QueryOrderResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="QueryOrderResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Url" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataList" type="tns:ArrayOfDataListInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDataListInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DataListInfo" nillable="true" type="tns:DataListInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DataListInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Balance" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Expiry" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryOrderRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:QueryOrderInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="QueryOrderInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryOrderRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryOrderRequestResult" type="tns:QueryOrderResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResendMsgRequestTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="ResendMsgRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResendMsgRequestTestResult" type="tns:ResendMsgResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResendMsgResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ResendMsgRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:ResendMsgInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResendMsgInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Operators" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ResendMsgRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResendMsgRequestResult" type="tns:ResendMsgResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResendMailRequestTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="ResendMailRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResendMailRequestTestResult" type="tns:ResendMailResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResendMailResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ResendMailRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:ResendMailInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResendMailInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ResendMailRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResendMailRequestResult" type="tns:ResendMailResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MobileRealTimeOrderRequestTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="MobileRealTimeOrderRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MobileRealTimeOrderRequestTestResult" type="tns:MobileRealTimeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MobileRealTimeResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataList" type="tns:ArrayOfDataListInfoByMobile" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDataListInfoByMobile">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DataListInfoByMobile" nillable="true" type="tns:DataListInfoByMobile" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DataListInfoByMobile">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartCardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EndCardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mobile" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CardNumber" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FaceValue" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MobileRealTimeOrderRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:MobileListJsonInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MobileListJsonInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Date" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataList" type="tns:ArrayOfMobileDetailInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfMobileDetailInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MobileDetailInfo" nillable="true" type="tns:MobileDetailInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MobileDetailInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="issuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="merchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="mobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="shortUrlBeginDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="shortUrlEndDate" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="totalAmount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="availableCount" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="needVerifyCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="VerifyCodeLength" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="VerifyCodeAmount" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="needFreezeCard" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="cardNumber" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MobileRealTimeOrderRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MobileRealTimeOrderRequestResult" type="tns:MobileRealTimeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MailRealTimeOrderRequestTest">
+        <s:complexType />
+      </s:element>
+      <s:element name="MailRealTimeOrderRequestTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MailRealTimeOrderRequestTestResult" type="tns:MailRealTimeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MailRealTimeResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodeMsg" type="tns:CodeMsg" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataList" type="tns:ArrayOfDataListInfoByMail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDataListInfoByMail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DataListInfoByMail" nillable="true" type="tns:DataListInfoByMail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DataListInfoByMail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartCardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EndCardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Amount" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CardNumber" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FaceValue" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MailRealTimeOrderRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CClass" type="tns:MailListJsonInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MailListJsonInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IssuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Date" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataList" type="tns:ArrayOfMailDetailInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfMailDetailInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MailDetailInfo" nillable="true" type="tns:MailDetailInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MailDetailInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="issuerId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="merchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="mail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="mobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="shortUrlBeginDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="shortUrlEndDate" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="totalAmount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="availableCount" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="needVerifyCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="VerifyCodeLength" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="VerifyCodeAmount" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="needFreezeCard" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="cardNumber" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MailRealTimeOrderRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MailRealTimeOrderRequestResult" type="tns:MailRealTimeResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CtqyMultiCardDataTest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCardNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CtqyMultiCardDataTestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CtqyMultiCardDataTestResult" type="tns:CtqyMultiDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CtqyMultiDataClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="total" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cardTxns" type="tns:ArrayOfCardsTxnAll" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCardsTxnAll">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CardsTxnAll" nillable="true" type="tns:CardsTxnAll" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CardsTxnAll">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="txnId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="inputChannel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="inputChannelName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="txnCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="txnName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="earnPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="earnAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="redeemPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="redeemAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="transferPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="transferAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="adjustPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="adjustAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="upAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="upPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="downAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="downPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="txnPoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="txnAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="txnDate" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="txnTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="corporateNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="corporateName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="merchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="merchantName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="termNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="balanceAmount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="balancePoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="remarks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="rrn" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CtqyMultiCardData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cmc" type="tns:CtqyMultiCardBean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CtqyMultiCardBean">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="merchantNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="cardInfos" type="tns:ArrayOfCtqyMultiCardInfo" />
+          <s:element minOccurs="0" maxOccurs="1" name="isVerifyPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="queryType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="dateFrom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="dateTo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="isPager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="pageNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="pageSize" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sortRule" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCtqyMultiCardInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CtqyMultiCardInfo" nillable="true" type="tns:CtqyMultiCardInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CtqyMultiCardInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="cardNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="passwordType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CtqyMultiCardDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CtqyMultiCardDataResult" type="tns:CtqyMultiDataClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="CancelRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelRequest" />
+  </wsdl:message>
+  <wsdl:message name="CancelRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="FreezeRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:FreezeRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="FreezeRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:FreezeRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="FreezeRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:FreezeRequest" />
+  </wsdl:message>
+  <wsdl:message name="FreezeRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:FreezeRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostPoneRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:PostPoneRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="PostPoneRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:PostPoneRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostPoneRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:PostPoneRequest" />
+  </wsdl:message>
+  <wsdl:message name="PostPoneRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:PostPoneRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryOrderRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryOrderRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryOrderRequest" />
+  </wsdl:message>
+  <wsdl:message name="QueryOrderRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryOrderRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResendMsgRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:ResendMsgRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="ResendMsgRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:ResendMsgRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResendMsgRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:ResendMsgRequest" />
+  </wsdl:message>
+  <wsdl:message name="ResendMsgRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:ResendMsgRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResendMailRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:ResendMailRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="ResendMailRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:ResendMailRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResendMailRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:ResendMailRequest" />
+  </wsdl:message>
+  <wsdl:message name="ResendMailRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:ResendMailRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileRealTimeOrderRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:MobileRealTimeOrderRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="MobileRealTimeOrderRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:MobileRealTimeOrderRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="MobileRealTimeOrderRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:MobileRealTimeOrderRequest" />
+  </wsdl:message>
+  <wsdl:message name="MobileRealTimeOrderRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:MobileRealTimeOrderRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="MailRealTimeOrderRequestTestSoapIn">
+    <wsdl:part name="parameters" element="tns:MailRealTimeOrderRequestTest" />
+  </wsdl:message>
+  <wsdl:message name="MailRealTimeOrderRequestTestSoapOut">
+    <wsdl:part name="parameters" element="tns:MailRealTimeOrderRequestTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="MailRealTimeOrderRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:MailRealTimeOrderRequest" />
+  </wsdl:message>
+  <wsdl:message name="MailRealTimeOrderRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:MailRealTimeOrderRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="CtqyMultiCardDataTestSoapIn">
+    <wsdl:part name="parameters" element="tns:CtqyMultiCardDataTest" />
+  </wsdl:message>
+  <wsdl:message name="CtqyMultiCardDataTestSoapOut">
+    <wsdl:part name="parameters" element="tns:CtqyMultiCardDataTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="CtqyMultiCardDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CtqyMultiCardData" />
+  </wsdl:message>
+  <wsdl:message name="CtqyMultiCardDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CtqyMultiCardDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequestTest">
+      <wsdl:input message="tns:CancelRequestTestSoapIn" />
+      <wsdl:output message="tns:CancelRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequest">
+      <wsdl:input message="tns:CancelRequestSoapIn" />
+      <wsdl:output message="tns:CancelRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FreezeRequestTest">
+      <wsdl:input message="tns:FreezeRequestTestSoapIn" />
+      <wsdl:output message="tns:FreezeRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FreezeRequest">
+      <wsdl:input message="tns:FreezeRequestSoapIn" />
+      <wsdl:output message="tns:FreezeRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostPoneRequestTest">
+      <wsdl:input message="tns:PostPoneRequestTestSoapIn" />
+      <wsdl:output message="tns:PostPoneRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostPoneRequest">
+      <wsdl:input message="tns:PostPoneRequestSoapIn" />
+      <wsdl:output message="tns:PostPoneRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderRequestTest">
+      <wsdl:input message="tns:QueryOrderRequestTestSoapIn" />
+      <wsdl:output message="tns:QueryOrderRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderRequest">
+      <wsdl:input message="tns:QueryOrderRequestSoapIn" />
+      <wsdl:output message="tns:QueryOrderRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResendMsgRequestTest">
+      <wsdl:input message="tns:ResendMsgRequestTestSoapIn" />
+      <wsdl:output message="tns:ResendMsgRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResendMsgRequest">
+      <wsdl:input message="tns:ResendMsgRequestSoapIn" />
+      <wsdl:output message="tns:ResendMsgRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResendMailRequestTest">
+      <wsdl:input message="tns:ResendMailRequestTestSoapIn" />
+      <wsdl:output message="tns:ResendMailRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResendMailRequest">
+      <wsdl:input message="tns:ResendMailRequestSoapIn" />
+      <wsdl:output message="tns:ResendMailRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MobileRealTimeOrderRequestTest">
+      <wsdl:input message="tns:MobileRealTimeOrderRequestTestSoapIn" />
+      <wsdl:output message="tns:MobileRealTimeOrderRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MobileRealTimeOrderRequest">
+      <wsdl:input message="tns:MobileRealTimeOrderRequestSoapIn" />
+      <wsdl:output message="tns:MobileRealTimeOrderRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MailRealTimeOrderRequestTest">
+      <wsdl:input message="tns:MailRealTimeOrderRequestTestSoapIn" />
+      <wsdl:output message="tns:MailRealTimeOrderRequestTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MailRealTimeOrderRequest">
+      <wsdl:input message="tns:MailRealTimeOrderRequestSoapIn" />
+      <wsdl:output message="tns:MailRealTimeOrderRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CtqyMultiCardDataTest">
+      <wsdl:input message="tns:CtqyMultiCardDataTestSoapIn" />
+      <wsdl:output message="tns:CtqyMultiCardDataTestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CtqyMultiCardData">
+      <wsdl:input message="tns:CtqyMultiCardDataSoapIn" />
+      <wsdl:output message="tns:CtqyMultiCardDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequestTest">
+      <soap:operation soapAction="http://tempuri.org/CancelRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequest">
+      <soap:operation soapAction="http://tempuri.org/CancelRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FreezeRequestTest">
+      <soap:operation soapAction="http://tempuri.org/FreezeRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FreezeRequest">
+      <soap:operation soapAction="http://tempuri.org/FreezeRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostPoneRequestTest">
+      <soap:operation soapAction="http://tempuri.org/PostPoneRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostPoneRequest">
+      <soap:operation soapAction="http://tempuri.org/PostPoneRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderRequestTest">
+      <soap:operation soapAction="http://tempuri.org/QueryOrderRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderRequest">
+      <soap:operation soapAction="http://tempuri.org/QueryOrderRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMsgRequestTest">
+      <soap:operation soapAction="http://tempuri.org/ResendMsgRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMsgRequest">
+      <soap:operation soapAction="http://tempuri.org/ResendMsgRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMailRequestTest">
+      <soap:operation soapAction="http://tempuri.org/ResendMailRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMailRequest">
+      <soap:operation soapAction="http://tempuri.org/ResendMailRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MobileRealTimeOrderRequestTest">
+      <soap:operation soapAction="http://tempuri.org/MobileRealTimeOrderRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MobileRealTimeOrderRequest">
+      <soap:operation soapAction="http://tempuri.org/MobileRealTimeOrderRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MailRealTimeOrderRequestTest">
+      <soap:operation soapAction="http://tempuri.org/MailRealTimeOrderRequestTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MailRealTimeOrderRequest">
+      <soap:operation soapAction="http://tempuri.org/MailRealTimeOrderRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CtqyMultiCardDataTest">
+      <soap:operation soapAction="http://tempuri.org/CtqyMultiCardDataTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CtqyMultiCardData">
+      <soap:operation soapAction="http://tempuri.org/CtqyMultiCardData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/CancelRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRequest">
+      <soap12:operation soapAction="http://tempuri.org/CancelRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FreezeRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/FreezeRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FreezeRequest">
+      <soap12:operation soapAction="http://tempuri.org/FreezeRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostPoneRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/PostPoneRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostPoneRequest">
+      <soap12:operation soapAction="http://tempuri.org/PostPoneRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/QueryOrderRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryOrderRequest">
+      <soap12:operation soapAction="http://tempuri.org/QueryOrderRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMsgRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/ResendMsgRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMsgRequest">
+      <soap12:operation soapAction="http://tempuri.org/ResendMsgRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMailRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/ResendMailRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResendMailRequest">
+      <soap12:operation soapAction="http://tempuri.org/ResendMailRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MobileRealTimeOrderRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/MobileRealTimeOrderRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MobileRealTimeOrderRequest">
+      <soap12:operation soapAction="http://tempuri.org/MobileRealTimeOrderRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MailRealTimeOrderRequestTest">
+      <soap12:operation soapAction="http://tempuri.org/MailRealTimeOrderRequestTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MailRealTimeOrderRequest">
+      <soap12:operation soapAction="http://tempuri.org/MailRealTimeOrderRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CtqyMultiCardDataTest">
+      <soap12:operation soapAction="http://tempuri.org/CtqyMultiCardDataTest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CtqyMultiCardData">
+      <soap12:operation soapAction="http://tempuri.org/CtqyMultiCardData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://csnp71701u.cdc.carrefour.com/InternetElects/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://csnp71701u.cdc.carrefour.com/InternetElects/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

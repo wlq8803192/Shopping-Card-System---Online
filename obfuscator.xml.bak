@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--这是应用程序生成的代码。不要手动编辑。-->
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <file dir="D:\Project\Program\ShoppingCard\Shopping Card System Product\obj\Release" name="ShoppingCardSystem.exe" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="D:\Project\Program\ShoppingCard\Shopping Card System Product\Temp" />
+  </output>
+  <renaming>
+    <excludelist>
+      <type name="ShoppingCardSystem.My.MyProject/ThreadSafeObjectProvider`1&lt;T&gt;" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+</dotfuscator>

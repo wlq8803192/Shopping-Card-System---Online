@@ -1,0 +1,84 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastLoginUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShowNavigationWhenStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TicketPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InvoicePrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ContractPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IsInTraining" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NotifyMessage" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="F1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">中国</Value>
+    </Setting>
+    <Setting Name="F2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">北京</Value>
+    </Setting>
+    <Setting Name="F3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">公司</Value>
+    </Setting>
+    <Setting Name="F4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">部队</Value>
+    </Setting>
+    <Setting Name="F5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">大学</Value>
+    </Setting>
+    <Setting Name="F6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;未定义&gt;</Value>
+    </Setting>
+    <Setting Name="F7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;未定义&gt;</Value>
+    </Setting>
+    <Setting Name="F8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;未定义&gt;</Value>
+    </Setting>
+    <Setting Name="F9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;未定义&gt;</Value>
+    </Setting>
+    <Setting Name="F10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;未定义&gt;</Value>
+    </Setting>
+    <Setting Name="ApplicationFormPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrintInvoiceLine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GiftCardCancellationPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InvoiceDevicePort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GiftCardOfflineActivationPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShoppingCardSystem_WebServiceConfig_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:85/Service.asmx</Value>
+    </Setting>
+    <Setting Name="ShoppingCardSystem_InternetSales_ForRuiTai_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:105/Service.asmx</Value>
+    </Setting>
+    <Setting Name="ShoppingCardSystem_InternetWebService_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:95/Service.asmx</Value>
+    </Setting>
+    <Setting Name="ShoppingCardSystem_InternetElects_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://csnp71701u.cdc.carrefour.com/InternetElects/Service.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

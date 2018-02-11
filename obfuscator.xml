@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <file dir="E:\Qipeng\Shopping Card System-Online\obj\Release" name="ShoppingCardSystem.exe" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="E:\Qipeng\Shopping Card System-Online\Temp" />
+  </output>
+  <renaming>
+    <excludelist>
+      <namespace name="ShoppingCardSystem.C4ShoppingCardService" />
+      <type name="ShoppingCardSystem.My.MySettings" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+  <controlflow level="high" />
+  <stringencrypt>
+    <option>disable</option>
+    <includelist>
+      <namespace name="ShoppingCardSystem.C4ShoppingCardService" />
+      <type name="ShoppingCardSystem.DataBase" />
+      <type name="ShoppingCardSystem.frmMain" />
+      <type name="ShoppingCardSystem.SecurityText" />
+      <type name="ShoppingCardSystem.ShoppingCardNo" />
+    </includelist>
+  </stringencrypt>
+  <codeprotection />
+  <premark>
+    <option>disable</option>
+    <option>usepassphrase</option>
+    <assemblylist>
+      <assembly>
+        <file dir="E:\Qipeng\Shopping Card System-Online\obj\Release" name="ShoppingCardSystem.exe" />
+      </assembly>
+    </assemblylist>
+    <passphrase>wint_li@carrefour.com</passphrase>
+    <encoding name="utf8" />
+    <watermark>wintli
+abcd</watermark>
+  </premark>
+  <licensing>
+    <permutation name="" />
+    <product versionmask="revision" />
+    <nolicenseaction name="showactivation" />
+    <unlockingfeature name="" />
+  </licensing>
+  <extattributes />
+</dotfuscator>

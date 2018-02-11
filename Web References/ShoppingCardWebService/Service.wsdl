@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://ShoppingCardWebService/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://ShoppingCardWebService/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ShoppingCardWebService/">
+      <s:element name="GetDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSQLString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModifyTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sSQLString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModifyTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ModifyTableResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BulkCopyTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTargetTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtSourceTable">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BulkCopyTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BulkCopyTableResult" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModifyTableSoapIn">
+    <wsdl:part name="parameters" element="tns:ModifyTable" />
+  </wsdl:message>
+  <wsdl:message name="ModifyTableSoapOut">
+    <wsdl:part name="parameters" element="tns:ModifyTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="BulkCopyTableSoapIn">
+    <wsdl:part name="parameters" element="tns:BulkCopyTable" />
+  </wsdl:message>
+  <wsdl:message name="BulkCopyTableSoapOut">
+    <wsdl:part name="parameters" element="tns:BulkCopyTableResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ReportWebServiceSoap">
+    <wsdl:operation name="GetDataTable">
+      <wsdl:input message="tns:GetDataTableSoapIn" />
+      <wsdl:output message="tns:GetDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTable">
+      <wsdl:input message="tns:ModifyTableSoapIn" />
+      <wsdl:output message="tns:ModifyTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BulkCopyTable">
+      <wsdl:input message="tns:BulkCopyTableSoapIn" />
+      <wsdl:output message="tns:BulkCopyTableSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ReportWebServiceSoap" type="tns:ReportWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataTable">
+      <soap:operation soapAction="http://ShoppingCardWebService/GetDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTable">
+      <soap:operation soapAction="http://ShoppingCardWebService/ModifyTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BulkCopyTable">
+      <soap:operation soapAction="http://ShoppingCardWebService/BulkCopyTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ReportWebServiceSoap12" type="tns:ReportWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataTable">
+      <soap12:operation soapAction="http://ShoppingCardWebService/GetDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTable">
+      <soap12:operation soapAction="http://ShoppingCardWebService/ModifyTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BulkCopyTable">
+      <soap12:operation soapAction="http://ShoppingCardWebService/BulkCopyTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReportWebService">
+    <wsdl:port name="ReportWebServiceSoap" binding="tns:ReportWebServiceSoap">
+      <soap:address location="http://10.132.203.182:8864/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ReportWebServiceSoap12" binding="tns:ReportWebServiceSoap12">
+      <soap12:address location="http://10.132.203.182:8864/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
